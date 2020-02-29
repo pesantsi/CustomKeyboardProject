@@ -24,13 +24,50 @@
 #include <SPI.h>
 #include <Wire.h>
 
+uint8_t rawhidData[255];
+const int pinLed = LED_BUILTIN;
+const int pinButton = 2;
 
-void setup() 
+void setup()
 {
 	Serial.begin(9600);
-    OledDisplay.setup();
+	//RawHID.begin(rawhidData, sizeof(rawhidData));
+
+	OledDisplay.setup();
 }
 
-void loop() {
+void loop()
+{
+	//// Send data to the host
+	//if (!digitalRead(pinButton)) 
+	//{
+	//	digitalWrite(pinLed, HIGH);
+
+	//	// Create buffer with numbers and send it
+	//	uint8_t megabuff[100];
+	//	for (uint8_t i = 0; i < sizeof(megabuff); i++) {
+	//		megabuff[i] = i;
+	//	}
+	//	RawHID.write(megabuff, sizeof(megabuff));
+
+	//	// Simple debounce
+	//	delay(300);
+	//	digitalWrite(pinLed, LOW);
+	//}
+
+
+	//// Check if there is new data from the RawHID device
+	//auto bytesAvailable = RawHID.available();
+	//if (bytesAvailable)
+	//{
+	//	digitalWrite(pinLed, HIGH);
+
+	//	// Mirror data via Serial
+	//	while (bytesAvailable--) {
+	//		Serial.println(RawHID.read());
+	//	}
+
+	//	digitalWrite(pinLed, LOW);
+	//}
 }
 

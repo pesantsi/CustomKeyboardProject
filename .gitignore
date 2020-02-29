@@ -347,3 +347,13 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+
+Firmware/__vm/.Firmware.vsarduino.h
+
+Firmware/__vm/.Sketch1.vsarduino.h
+
+Firmware/__vm/Compile.vmps.xml
+
+Firmware/__vm/Configuration.Debug.vmps.xml
+
+Firmware/__vm/Upload.vmps.xml
