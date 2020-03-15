@@ -27,6 +27,12 @@
     <ClInclude Include="OledDisplay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="__vm\.Firmware.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HIDCommunication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="board.txt">
@@ -35,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OledDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HIDCommunication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

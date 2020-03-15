@@ -18,22 +18,15 @@
  included in any redistribution.
  **************************************************************************/
 
+#include "HIDCommunication.h"
 #include "OledDisplay.h"
-#include <HID-Settings.h>
-#include <HID-Project.h>
-#include <SPI.h>
-#include <Wire.h>
-
-uint8_t rawhidData[255];
-const int pinLed = LED_BUILTIN;
-const int pinButton = 2;
 
 void setup()
 {
 	Serial.begin(9600);
-	//RawHID.begin(rawhidData, sizeof(rawhidData));
 
-	OledDisplay.setup();
+	HIDCommunication.Setup();
+	OledDisplay.Setup();
 }
 
 void loop()
@@ -56,18 +49,5 @@ void loop()
 	//}
 
 
-	//// Check if there is new data from the RawHID device
-	//auto bytesAvailable = RawHID.available();
-	//if (bytesAvailable)
-	//{
-	//	digitalWrite(pinLed, HIGH);
-
-	//	// Mirror data via Serial
-	//	while (bytesAvailable--) {
-	//		Serial.println(RawHID.read());
-	//	}
-
-	//	digitalWrite(pinLed, LOW);
-	//}
 }
 

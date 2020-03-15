@@ -46,7 +46,6 @@ static const unsigned char PROGMEM logo_bmp[] =
 class OledDisplay_
 {
 public:
-	void setup();
 	void testdrawline();
 	void testdrawrect();
 	void testfillrect();
@@ -60,7 +59,10 @@ public:
 	void testdrawstyles();
 	void testscrolltext();
 	void testdrawbitmap();
-	void testanimate(const uint8_t* bitmap, uint8_t w, uint8_t h);
+	void testanimate(uint8_t w, uint8_t h);
+
+	void Setup();
+	void ShowText(char text[]);
 
 private:
 	Adafruit_SSD1306 m_display;

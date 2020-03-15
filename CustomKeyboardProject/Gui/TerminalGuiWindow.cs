@@ -7,24 +7,9 @@ namespace CustomKeyboardProject.Gui
 {
     public class TerminalGuiWindow : Window
     {
-        public static Label ml2;
-
-        static void NewFile()
-        {
-            var d = new OpenDialog("Open File", "Open File Message");
-            Application.Run(d);
-        }
-
-        static bool Quit()
-        {
-            var n = MessageBox.Query(50, 7, "Quit Demo", "Are you sure you want to quit this demo?", "Yes", "No");
-            return n == 0;
-        }
-
-        static void Close()
-        {
-            MessageBox.ErrorQuery(50, 5, "Error", "There is nothing to close", "Ok");
-        }
+        private Label CustomTextLabel { get; set; }
+        private TextField CustomTextLabelText { get; set; }
+        private Button CustomTextSendButton { get; set; }
 
         public TerminalGuiWindow()
             : base("Custom Keyboard Controller")
@@ -34,15 +19,26 @@ namespace CustomKeyboardProject.Gui
             Width = Dim.Fill();
             Height = Dim.Fill();
             
-            var customTextLabel = new Label("Custom Text: ") { X = 1, Y = 1 };
-            var customTextLabelText = new TextField("")
+            CustomTextLabel = new Label("Custom Text: ") { X = 1, Y = 1 };
+            CustomTextLabelText = new TextField("")
             {
-                X = Pos.Left(customTextLabel),
-                Y = Pos.Bottom(customTextLabel),
+                X = Pos.Left(CustomTextLabel),
+                Y = Pos.Bottom(CustomTextLabel),
                 Width = 40
             };
 
-            Add(customTextLabel, customTextLabelText);
+            CustomTextSendButton = new Button("Send Text")
+            {
+                X = Pos.Right(CustomTextLabelText) + 1,
+                Y = Pos.Bottom(CustomTextLabel),
+                Clicked = () => OnCustomTextSendButtonClicked(),
+            };
+                        
+            Add(
+                CustomTextLabel,
+                CustomTextLabelText,
+                CustomTextSendButton
+                );
             ////        var passText = new TextField("")
             ////        {
             ////            Secret = true,
@@ -107,6 +103,11 @@ namespace CustomKeyboardProject.Gui
             ////top.Add(menu);
 
             //top.Add(win);
+        }
+
+        private void OnCustomTextSendButtonClicked()
+        {
+
         }
     }
 }

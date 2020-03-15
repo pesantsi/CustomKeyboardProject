@@ -7,7 +7,7 @@
 	// Declaration for an SSD1306 m_display connected to I2C (SDA, SCL pins)
 #define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
 
-void OledDisplay_::setup()
+void OledDisplay_::Setup()
 {
 	m_display = Adafruit_SSD1306(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 	// SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
@@ -16,43 +16,38 @@ void OledDisplay_::setup()
 		for (;;); // Don't proceed, loop forever
 	}
 
-	// Show initial display buffer contents on the screen --
-	// the library initializes this with an Adafruit splash screen.
-	m_display.display();
-	delay(2000); // Pause for 2 seconds
-
 	// Clear the buffer
 	m_display.clearDisplay();
 
 	// Draw a single pixel in white
-	m_display.drawPixel(10, 10, SSD1306_WHITE);
+	//m_display.drawPixel(10, 10, SSD1306_WHITE);
 
 	// Show the display buffer on the screen. You MUST call display() after
 	// drawing commands to make them visible on screen!
-	m_display.display();
-	delay(2000);
+	//m_display.display();
+	//delay(2000);
 	// display.display() is NOT necessary after every single drawing command,
 	// unless that's what you want...rather, you can batch up a bunch of
 	// drawing operations and then update the screen all at once by calling
 	// display.display(). These examples demonstrate both approaches...
 
-	testdrawline();      // Draw many lines
+	//testdrawline();      // Draw many lines
 
-	testdrawrect();      // Draw rectangles (outlines)
+	//testdrawrect();      // Draw rectangles (outlines)
 
-	testfillrect();      // Draw rectangles (filled)
+	//testfillrect();      // Draw rectangles (filled)
 
-	testdrawcircle();    // Draw circles (outlines)
+	//testdrawcircle();    // Draw circles (outlines)
 
-	testfillcircle();    // Draw circles (filled)
+	//testfillcircle();    // Draw circles (filled)
 
-	testdrawroundrect(); // Draw rounded rectangles (outlines)
+	//testdrawroundrect(); // Draw rounded rectangles (outlines)
 
-	testfillroundrect(); // Draw rounded rectangles (filled)
+	//testfillroundrect(); // Draw rounded rectangles (filled)
 
-	testdrawtriangle();  // Draw triangles (outlines)
+	//testdrawtriangle();  // Draw triangles (outlines)
 
-	testfilltriangle();  // Draw triangles (filled)
+	//testfilltriangle();  // Draw triangles (filled)
 
 	testdrawchar();      // Draw characters of the default font
 
@@ -62,15 +57,27 @@ void OledDisplay_::setup()
 
 	testdrawbitmap();    // Draw a small bitmap image
 
-	// Invert and restore display, pausing in-between
-	m_display.invertDisplay(true);
-	delay(1000);
-	m_display.invertDisplay(false);
+	//// Invert and restore display, pausing in-between
+	//m_display.invertDisplay(true);
+	//delay(1000);
+	//m_display.invertDisplay(false);
 	delay(1000);
 
-	testanimate(logo_bmp, LOGO_WIDTH, LOGO_HEIGHT); // Animate bitmaps
+	testanimate(LOGO_WIDTH, LOGO_HEIGHT); // Animate bitmaps
 
 }
+
+void OledDisplay_::ShowText(char text[])
+{
+	m_display.clearDisplay(); // Clear m_display buffer
+
+	m_display.setTextSize(2); // Draw 2X-scale text
+	m_display.setTextColor(SSD1306_WHITE);
+	m_display.println(text);
+
+	m_display.display();
+}
+
 
 void OledDisplay_::testdrawline()
 {
@@ -334,7 +341,7 @@ void OledDisplay_::testdrawbitmap()
 #define YPOS   1
 #define DELTAY 2
 
-void OledDisplay_::testanimate(const uint8_t* bitmap, uint8_t w, uint8_t h)
+void OledDisplay_::testanimate(uint8_t w, uint8_t h)
 {
 	int8_t f, icons[NUMFLAKES][3];
 
@@ -356,7 +363,7 @@ void OledDisplay_::testanimate(const uint8_t* bitmap, uint8_t w, uint8_t h)
 
 		// Draw each snowflake:
 		for (f = 0; f < NUMFLAKES; f++) {
-			m_display.drawBitmap(icons[f][XPOS], icons[f][YPOS], bitmap, w, h, SSD1306_WHITE);
+			m_display.drawBitmap(icons[f][XPOS], icons[f][YPOS], logo_bmp, w, h, SSD1306_WHITE);
 		}
 
 		m_display.display(); // Show the m_display buffer on the screen
