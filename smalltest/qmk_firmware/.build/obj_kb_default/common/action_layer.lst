@@ -1643,33 +1643,33 @@
  1311               		.file 7 "./tmk_core/common/debug.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 action_layer.c
-C:\msys64\tmp\ccEghg5H.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccEghg5H.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccEghg5H.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccEghg5H.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccEghg5H.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccEghg5H.s:13     .text.default_layer_debug:00000000 default_layer_debug
-C:\msys64\tmp\ccEghg5H.s:32     .text.default_layer_set:00000000 default_layer_set
-C:\msys64\tmp\ccEghg5H.s:1302   .bss.default_layer_state:00000000 default_layer_state
-C:\msys64\tmp\ccEghg5H.s:69     .text.default_layer_or:00000000 default_layer_or
-C:\msys64\tmp\ccEghg5H.s:142    .text.default_layer_and:00000000 default_layer_and
-C:\msys64\tmp\ccEghg5H.s:215    .text.default_layer_xor:00000000 default_layer_xor
-C:\msys64\tmp\ccEghg5H.s:288    .text.layer_clear:00000000 layer_clear
-C:\msys64\tmp\ccEghg5H.s:1296   .bss.layer_state:00000000 layer_state
-C:\msys64\tmp\ccEghg5H.s:324    .text.layer_move:00000000 layer_move
-C:\msys64\tmp\ccEghg5H.s:379    .text.layer_on:00000000 layer_on
-C:\msys64\tmp\ccEghg5H.s:445    .text.layer_off:00000000 layer_off
-C:\msys64\tmp\ccEghg5H.s:516    .text.layer_invert:00000000 layer_invert
-C:\msys64\tmp\ccEghg5H.s:582    .text.layer_or:00000000 layer_or
-C:\msys64\tmp\ccEghg5H.s:655    .text.layer_and:00000000 layer_and
-C:\msys64\tmp\ccEghg5H.s:728    .text.layer_xor:00000000 layer_xor
-C:\msys64\tmp\ccEghg5H.s:801    .text.layer_debug:00000000 layer_debug
-C:\msys64\tmp\ccEghg5H.s:816    .text.update_source_layers_cache:00000000 update_source_layers_cache
-C:\msys64\tmp\ccEghg5H.s:1290   .bss.source_layers_cache:00000000 source_layers_cache
-C:\msys64\tmp\ccEghg5H.s:917    .text.read_source_layers_cache:00000000 read_source_layers_cache
-C:\msys64\tmp\ccEghg5H.s:1008   .text.layer_switch_get_layer:00000000 layer_switch_get_layer
-C:\msys64\tmp\ccEghg5H.s:1156   .text.layer_switch_get_action:00000000 layer_switch_get_action
-C:\msys64\tmp\ccEghg5H.s:1195   .text.store_or_get_action:00000000 store_or_get_action
+C:\msys64\tmp\ccfR5Bqh.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccfR5Bqh.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccfR5Bqh.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccfR5Bqh.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccfR5Bqh.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccfR5Bqh.s:13     .text.default_layer_debug:00000000 default_layer_debug
+C:\msys64\tmp\ccfR5Bqh.s:32     .text.default_layer_set:00000000 default_layer_set
+C:\msys64\tmp\ccfR5Bqh.s:1302   .bss.default_layer_state:00000000 default_layer_state
+C:\msys64\tmp\ccfR5Bqh.s:69     .text.default_layer_or:00000000 default_layer_or
+C:\msys64\tmp\ccfR5Bqh.s:142    .text.default_layer_and:00000000 default_layer_and
+C:\msys64\tmp\ccfR5Bqh.s:215    .text.default_layer_xor:00000000 default_layer_xor
+C:\msys64\tmp\ccfR5Bqh.s:288    .text.layer_clear:00000000 layer_clear
+C:\msys64\tmp\ccfR5Bqh.s:1296   .bss.layer_state:00000000 layer_state
+C:\msys64\tmp\ccfR5Bqh.s:324    .text.layer_move:00000000 layer_move
+C:\msys64\tmp\ccfR5Bqh.s:379    .text.layer_on:00000000 layer_on
+C:\msys64\tmp\ccfR5Bqh.s:445    .text.layer_off:00000000 layer_off
+C:\msys64\tmp\ccfR5Bqh.s:516    .text.layer_invert:00000000 layer_invert
+C:\msys64\tmp\ccfR5Bqh.s:582    .text.layer_or:00000000 layer_or
+C:\msys64\tmp\ccfR5Bqh.s:655    .text.layer_and:00000000 layer_and
+C:\msys64\tmp\ccfR5Bqh.s:728    .text.layer_xor:00000000 layer_xor
+C:\msys64\tmp\ccfR5Bqh.s:801    .text.layer_debug:00000000 layer_debug
+C:\msys64\tmp\ccfR5Bqh.s:816    .text.update_source_layers_cache:00000000 update_source_layers_cache
+C:\msys64\tmp\ccfR5Bqh.s:1290   .bss.source_layers_cache:00000000 source_layers_cache
+C:\msys64\tmp\ccfR5Bqh.s:917    .text.read_source_layers_cache:00000000 read_source_layers_cache
+C:\msys64\tmp\ccfR5Bqh.s:1008   .text.layer_switch_get_layer:00000000 layer_switch_get_layer
+C:\msys64\tmp\ccfR5Bqh.s:1156   .text.layer_switch_get_action:00000000 layer_switch_get_action
+C:\msys64\tmp\ccfR5Bqh.s:1195   .text.store_or_get_action:00000000 store_or_get_action
 
 UNDEFINED SYMBOLS
 clear_keyboard_but_mods

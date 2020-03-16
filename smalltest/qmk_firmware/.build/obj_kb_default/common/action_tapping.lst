@@ -2104,20 +2104,20 @@
  1381               		.file 9 "./tmk_core/common/debug.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 action_tapping.c
-C:\msys64\tmp\ccNjxohO.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccNjxohO.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccNjxohO.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccNjxohO.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccNjxohO.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccNjxohO.s:12     .text.debug_waiting_buffer:00000000 debug_waiting_buffer
-C:\msys64\tmp\ccNjxohO.s:1356   .bss.waiting_buffer_tail:00000000 waiting_buffer_tail
-C:\msys64\tmp\ccNjxohO.s:1361   .bss.waiting_buffer_head:00000000 waiting_buffer_head
-C:\msys64\tmp\ccNjxohO.s:1366   .bss.waiting_buffer:00000000 waiting_buffer
-C:\msys64\tmp\ccNjxohO.s:94     .text.debug_tapping_key:00000000 debug_tapping_key
-C:\msys64\tmp\ccNjxohO.s:1371   .bss.tapping_key:00000000 tapping_key
-C:\msys64\tmp\ccNjxohO.s:117    .text.waiting_buffer_scan_tap:00000000 waiting_buffer_scan_tap
-C:\msys64\tmp\ccNjxohO.s:296    .text.process_tapping:00000000 process_tapping
-C:\msys64\tmp\ccNjxohO.s:1090   .text.action_tapping_process:00000000 action_tapping_process
+C:\msys64\tmp\ccqJH7ts.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccqJH7ts.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccqJH7ts.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccqJH7ts.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccqJH7ts.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccqJH7ts.s:12     .text.debug_waiting_buffer:00000000 debug_waiting_buffer
+C:\msys64\tmp\ccqJH7ts.s:1356   .bss.waiting_buffer_tail:00000000 waiting_buffer_tail
+C:\msys64\tmp\ccqJH7ts.s:1361   .bss.waiting_buffer_head:00000000 waiting_buffer_head
+C:\msys64\tmp\ccqJH7ts.s:1366   .bss.waiting_buffer:00000000 waiting_buffer
+C:\msys64\tmp\ccqJH7ts.s:94     .text.debug_tapping_key:00000000 debug_tapping_key
+C:\msys64\tmp\ccqJH7ts.s:1371   .bss.tapping_key:00000000 tapping_key
+C:\msys64\tmp\ccqJH7ts.s:117    .text.waiting_buffer_scan_tap:00000000 waiting_buffer_scan_tap
+C:\msys64\tmp\ccqJH7ts.s:296    .text.process_tapping:00000000 process_tapping
+C:\msys64\tmp\ccqJH7ts.s:1090   .text.action_tapping_process:00000000 action_tapping_process
 
 UNDEFINED SYMBOLS
 debug_record

@@ -1467,32 +1467,32 @@
  758               		.file 7 "./tmk_core/common/util.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 matrix.c
-C:\msys64\tmp\cc3k6LoR.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\cc3k6LoR.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\cc3k6LoR.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\cc3k6LoR.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\cc3k6LoR.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\cc3k6LoR.s:13     .text.matrix_init_user:00000000 matrix_init_user
-C:\msys64\tmp\cc3k6LoR.s:13     .text.matrix_init_user:00000000 matrix_init_user.localalias.0
-C:\msys64\tmp\cc3k6LoR.s:32     .text.matrix_init_kb:00000000 matrix_init_kb
-C:\msys64\tmp\cc3k6LoR.s:49     .text.matrix_init_quantum:00000000 matrix_init_quantum
-C:\msys64\tmp\cc3k6LoR.s:66     .text.matrix_scan_user:00000000 matrix_scan_user
-C:\msys64\tmp\cc3k6LoR.s:81     .text.matrix_scan_kb:00000000 matrix_scan_kb
-C:\msys64\tmp\cc3k6LoR.s:98     .text.matrix_scan_quantum:00000000 matrix_scan_quantum
-C:\msys64\tmp\cc3k6LoR.s:115    .text.matrix_rows:00000000 matrix_rows
-C:\msys64\tmp\cc3k6LoR.s:134    .text.matrix_cols:00000000 matrix_cols
-C:\msys64\tmp\cc3k6LoR.s:150    .text.matrix_init:00000000 matrix_init
-C:\msys64\tmp\cc3k6LoR.s:734    .bss.matrix:00000000 matrix
-C:\msys64\tmp\cc3k6LoR.s:729    .bss.matrix_debouncing:00000000 matrix_debouncing
-C:\msys64\tmp\cc3k6LoR.s:255    .text.matrix_scan:00000000 matrix_scan
-C:\msys64\tmp\cc3k6LoR.s:739    .rodata.row_pins:00000000 row_pins
-C:\msys64\tmp\cc3k6LoR.s:745    .bss.debouncing:00000000 debouncing
-C:\msys64\tmp\cc3k6LoR.s:750    .bss.debouncing_time:00000000 debouncing_time
-C:\msys64\tmp\cc3k6LoR.s:566    .text.matrix_is_modified:00000000 matrix_is_modified
-C:\msys64\tmp\cc3k6LoR.s:588    .text.matrix_is_on:00000000 matrix_is_on
-C:\msys64\tmp\cc3k6LoR.s:624    .text.matrix_get_row:00000000 matrix_get_row
-C:\msys64\tmp\cc3k6LoR.s:651    .text.matrix_print:00000000 matrix_print
-C:\msys64\tmp\cc3k6LoR.s:672    .text.matrix_key_count:00000000 matrix_key_count
+C:\msys64\tmp\ccSgosTD.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccSgosTD.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccSgosTD.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccSgosTD.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccSgosTD.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccSgosTD.s:13     .text.matrix_init_user:00000000 matrix_init_user
+C:\msys64\tmp\ccSgosTD.s:13     .text.matrix_init_user:00000000 matrix_init_user.localalias.0
+C:\msys64\tmp\ccSgosTD.s:32     .text.matrix_init_kb:00000000 matrix_init_kb
+C:\msys64\tmp\ccSgosTD.s:49     .text.matrix_init_quantum:00000000 matrix_init_quantum
+C:\msys64\tmp\ccSgosTD.s:66     .text.matrix_scan_user:00000000 matrix_scan_user
+C:\msys64\tmp\ccSgosTD.s:81     .text.matrix_scan_kb:00000000 matrix_scan_kb
+C:\msys64\tmp\ccSgosTD.s:98     .text.matrix_scan_quantum:00000000 matrix_scan_quantum
+C:\msys64\tmp\ccSgosTD.s:115    .text.matrix_rows:00000000 matrix_rows
+C:\msys64\tmp\ccSgosTD.s:134    .text.matrix_cols:00000000 matrix_cols
+C:\msys64\tmp\ccSgosTD.s:150    .text.matrix_init:00000000 matrix_init
+C:\msys64\tmp\ccSgosTD.s:734    .bss.matrix:00000000 matrix
+C:\msys64\tmp\ccSgosTD.s:729    .bss.matrix_debouncing:00000000 matrix_debouncing
+C:\msys64\tmp\ccSgosTD.s:255    .text.matrix_scan:00000000 matrix_scan
+C:\msys64\tmp\ccSgosTD.s:739    .rodata.row_pins:00000000 row_pins
+C:\msys64\tmp\ccSgosTD.s:745    .bss.debouncing:00000000 debouncing
+C:\msys64\tmp\ccSgosTD.s:750    .bss.debouncing_time:00000000 debouncing_time
+C:\msys64\tmp\ccSgosTD.s:566    .text.matrix_is_modified:00000000 matrix_is_modified
+C:\msys64\tmp\ccSgosTD.s:588    .text.matrix_is_on:00000000 matrix_is_on
+C:\msys64\tmp\ccSgosTD.s:624    .text.matrix_get_row:00000000 matrix_get_row
+C:\msys64\tmp\ccSgosTD.s:651    .text.matrix_print:00000000 matrix_print
+C:\msys64\tmp\ccSgosTD.s:672    .text.matrix_key_count:00000000 matrix_key_count
 
 UNDEFINED SYMBOLS
 timer_read

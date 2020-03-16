@@ -1506,28 +1506,28 @@
  1136               		.file 13 "./tmk_core/common/keycode.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 mousekey.c
-C:\msys64\tmp\ccsc499K.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccsc499K.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccsc499K.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccsc499K.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccsc499K.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccsc499K.s:12     .text.move_unit:00000000 move_unit
-C:\msys64\tmp\ccsc499K.s:1111   .bss.mousekey_accel:00000000 mousekey_accel
-C:\msys64\tmp\ccsc499K.s:1094   .data.mk_max_speed:00000000 mk_max_speed
-C:\msys64\tmp\ccsc499K.s:1116   .bss.mousekey_repeat:00000000 mousekey_repeat
-C:\msys64\tmp\ccsc499K.s:1088   .data.mk_time_to_max:00000000 mk_time_to_max
-C:\msys64\tmp\ccsc499K.s:148    .text.wheel_unit:00000000 wheel_unit
-C:\msys64\tmp\ccsc499K.s:1082   .data.mk_wheel_max_speed:00000000 mk_wheel_max_speed
-C:\msys64\tmp\ccsc499K.s:1076   .data.mk_wheel_time_to_max:00000000 mk_wheel_time_to_max
-C:\msys64\tmp\ccsc499K.s:264    .text.mousekey_on:00000000 mousekey_on
-C:\msys64\tmp\ccsc499K.s:1121   .bss.mouse_report:00000000 mouse_report
-C:\msys64\tmp\ccsc499K.s:501    .text.mousekey_off:00000000 mousekey_off
-C:\msys64\tmp\ccsc499K.s:760    .text.mousekey_send:00000000 mousekey_send
-C:\msys64\tmp\ccsc499K.s:1070   .bss.last_timer:00000000 last_timer
-C:\msys64\tmp\ccsc499K.s:793    .text.mousekey_task:00000000 mousekey_task
-C:\msys64\tmp\ccsc499K.s:1100   .data.mk_interval:00000000 mk_interval
-C:\msys64\tmp\ccsc499K.s:1106   .data.mk_delay:00000000 mk_delay
-C:\msys64\tmp\ccsc499K.s:1037   .text.mousekey_clear:00000000 mousekey_clear
+C:\msys64\tmp\ccLhRYgG.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccLhRYgG.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccLhRYgG.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccLhRYgG.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccLhRYgG.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccLhRYgG.s:12     .text.move_unit:00000000 move_unit
+C:\msys64\tmp\ccLhRYgG.s:1111   .bss.mousekey_accel:00000000 mousekey_accel
+C:\msys64\tmp\ccLhRYgG.s:1094   .data.mk_max_speed:00000000 mk_max_speed
+C:\msys64\tmp\ccLhRYgG.s:1116   .bss.mousekey_repeat:00000000 mousekey_repeat
+C:\msys64\tmp\ccLhRYgG.s:1088   .data.mk_time_to_max:00000000 mk_time_to_max
+C:\msys64\tmp\ccLhRYgG.s:148    .text.wheel_unit:00000000 wheel_unit
+C:\msys64\tmp\ccLhRYgG.s:1082   .data.mk_wheel_max_speed:00000000 mk_wheel_max_speed
+C:\msys64\tmp\ccLhRYgG.s:1076   .data.mk_wheel_time_to_max:00000000 mk_wheel_time_to_max
+C:\msys64\tmp\ccLhRYgG.s:264    .text.mousekey_on:00000000 mousekey_on
+C:\msys64\tmp\ccLhRYgG.s:1121   .bss.mouse_report:00000000 mouse_report
+C:\msys64\tmp\ccLhRYgG.s:501    .text.mousekey_off:00000000 mousekey_off
+C:\msys64\tmp\ccLhRYgG.s:760    .text.mousekey_send:00000000 mousekey_send
+C:\msys64\tmp\ccLhRYgG.s:1070   .bss.last_timer:00000000 last_timer
+C:\msys64\tmp\ccLhRYgG.s:793    .text.mousekey_task:00000000 mousekey_task
+C:\msys64\tmp\ccLhRYgG.s:1100   .data.mk_interval:00000000 mk_interval
+C:\msys64\tmp\ccLhRYgG.s:1106   .data.mk_delay:00000000 mk_delay
+C:\msys64\tmp\ccLhRYgG.s:1037   .text.mousekey_clear:00000000 mousekey_clear
 
 UNDEFINED SYMBOLS
 __divmodhi4

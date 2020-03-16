@@ -74,7 +74,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 .build/obj_kb_default/keyboards/kb/kb.o
  .debug_line    0x00000000      0x23a .build/obj_kb_default/keyboards/kb/kb.o
- .debug_str     0x00000000      0x48f .build/obj_kb_default/keyboards/kb/kb.o
+ .debug_str     0x00000000      0x488 .build/obj_kb_default/keyboards/kb/kb.o
  .comment       0x00000000       0x12 .build/obj_kb_default/keyboards/kb/kb.o
  .text          0x00000000        0x0 .build/obj_kb_default/keyboards/kb/keymaps/default/keymap.o
  .data          0x00000000        0x0 .build/obj_kb_default/keyboards/kb/keymaps/default/keymap.o
@@ -227,7 +227,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 .build/obj_kb_default/common/print.o
  .debug_line    0x00000000       0x1d .build/obj_kb_default/common/print.o
- .debug_str     0x00000000      0x19e .build/obj_kb_default/common/print.o
+ .debug_str     0x00000000      0x197 .build/obj_kb_default/common/print.o
  .comment       0x00000000       0x12 .build/obj_kb_default/common/print.o
  .text          0x00000000        0x0 .build/obj_kb_default/common/debug.o
  .data          0x00000000        0x0 .build/obj_kb_default/common/debug.o
@@ -255,7 +255,7 @@ Discarded input sections
                 0x00000000       0x60 .build/obj_kb_default/common/util.o
  .debug_ranges  0x00000000       0x50 .build/obj_kb_default/common/util.o
  .debug_line    0x00000000      0x706 .build/obj_kb_default/common/util.o
- .debug_str     0x00000000      0x204 .build/obj_kb_default/common/util.o
+ .debug_str     0x00000000      0x1fd .build/obj_kb_default/common/util.o
  .comment       0x00000000       0x12 .build/obj_kb_default/common/util.o
  .debug_frame   0x00000000      0x110 .build/obj_kb_default/common/util.o
  .text          0x00000000        0x0 .build/obj_kb_default/common/eeconfig.o
@@ -318,7 +318,7 @@ Discarded input sections
                 0x00000000       0x38 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
  .debug_ranges  0x00000000      0x100 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
  .debug_line    0x00000000      0xdce .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
- .debug_str     0x00000000      0x6e9 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_str     0x00000000      0x6e2 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
  .comment       0x00000000       0x12 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
  .debug_frame   0x00000000      0x140 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
  .text          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
@@ -380,7 +380,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
  .debug_line    0x00000000       0x1d .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
- .debug_str     0x00000000      0x1cd .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_str     0x00000000      0x1c6 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
  .comment       0x00000000       0x12 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
  .text          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
  .data          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
@@ -390,7 +390,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
  .debug_line    0x00000000       0x1d .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
- .debug_str     0x00000000      0x1d3 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_str     0x00000000      0x1cc .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
  .comment       0x00000000       0x12 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
  .text          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
  .data          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
@@ -400,7 +400,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
  .debug_line    0x00000000       0x1d .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
- .debug_str     0x00000000      0x1cd .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_str     0x00000000      0x1c6 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
  .comment       0x00000000       0x12 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
  .text          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
  .data          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
@@ -428,7 +428,7 @@ Discarded input sections
                 0x00000000       0x40 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
  .debug_ranges  0x00000000       0x30 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
  .debug_line    0x00000000      0x438 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
- .debug_str     0x00000000      0x505 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_str     0x00000000      0x4fe .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
  .comment       0x00000000       0x12 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
  .debug_frame   0x00000000      0x110 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
  .text          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
@@ -445,7 +445,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
  .debug_line    0x00000000       0x1d .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
- .debug_str     0x00000000      0x1ce .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_str     0x00000000      0x1c7 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
  .comment       0x00000000       0x12 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
  .text          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
  .data          0x00000000        0x0 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
@@ -1851,45 +1851,45 @@ END GROUP
  .debug_abbrev  0x00005381       0x14 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_clear_bss.o)
  .debug_abbrev  0x00005395       0x14 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_udivmodhi4.o)
 
-.debug_line     0x00000000    0x1182d
+.debug_line     0x00000000    0x1182b
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000       0x1d c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
- .debug_line    0x0000001d      0x36b .build/obj_kb_default/keyboards/kb/keymaps/default/keymap.o
- .debug_line    0x00000388      0xf18 .build/obj_kb_default/quantum/quantum.o
- .debug_line    0x000012a0      0x7fb .build/obj_kb_default/quantum/keymap_common.o
- .debug_line    0x00001a9b      0x2a7 .build/obj_kb_default/quantum/keycode_config.o
- .debug_line    0x00001d42      0x42c .build/obj_kb_default/quantum/process_keycode/process_leader.o
- .debug_line    0x0000216e      0x6fa .build/obj_kb_default/quantum/matrix.o
- .debug_line    0x00002868      0x3c2 .build/obj_kb_default/common/host.o
- .debug_line    0x00002c2a      0x4f1 .build/obj_kb_default/common/keyboard.o
- .debug_line    0x0000311b     0x1393 .build/obj_kb_default/common/action.o
- .debug_line    0x000044ae      0xcd8 .build/obj_kb_default/common/action_tapping.o
- .debug_line    0x00005186      0x527 .build/obj_kb_default/common/action_macro.o
- .debug_line    0x000056ad      0xa8c .build/obj_kb_default/common/action_layer.o
- .debug_line    0x00006139      0xbcc .build/obj_kb_default/common/action_util.o
- .debug_line    0x00006d05       0x93 .build/obj_kb_default/common/debug.o
- .debug_line    0x00006d98      0x252 .build/obj_kb_default/common/eeconfig.o
- .debug_line    0x00006fea      0x47d .build/obj_kb_default/common/avr/suspend.o
- .debug_line    0x00007467      0x4eb .build/obj_kb_default/common/avr/timer.o
- .debug_line    0x00007952      0x3b4 .build/obj_kb_default/common/avr/bootloader.o
- .debug_line    0x00007d06      0x985 .build/obj_kb_default/common/bootmagic.o
- .debug_line    0x0000868b      0xf01 .build/obj_kb_default/common/mousekey.o
- .debug_line    0x0000958c     0x140e .build/obj_kb_default/lufa.o
- .debug_line    0x0000a99a      0x3c9 .build/obj_kb_default/descriptor.o
- .debug_line    0x0000ad63      0x2a1 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
- .debug_line    0x0000b004     0x344e .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
- .debug_line    0x0000e452      0xa46 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
- .debug_line    0x0000ee98      0x724 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
- .debug_line    0x0000f5bc      0xdf8 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
- .debug_line    0x000103b4      0xdab .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
- .debug_line    0x0001115f       0x79 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
- .debug_line    0x000111d8      0x2cb .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
- .debug_line    0x000114a3       0xc7 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_divmodhi4.o)
- .debug_line    0x0001156a       0x61 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_exit.o)
- .debug_line    0x000115cb       0x79 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_tablejump2.o)
- .debug_line    0x00011644       0x97 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_copy_data.o)
- .debug_line    0x000116db       0x85 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_clear_bss.o)
- .debug_line    0x00011760       0xcd c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_udivmodhi4.o)
+ .debug_line    0x0000001d      0x369 .build/obj_kb_default/keyboards/kb/keymaps/default/keymap.o
+ .debug_line    0x00000386      0xf18 .build/obj_kb_default/quantum/quantum.o
+ .debug_line    0x0000129e      0x7fb .build/obj_kb_default/quantum/keymap_common.o
+ .debug_line    0x00001a99      0x2a7 .build/obj_kb_default/quantum/keycode_config.o
+ .debug_line    0x00001d40      0x42c .build/obj_kb_default/quantum/process_keycode/process_leader.o
+ .debug_line    0x0000216c      0x6fa .build/obj_kb_default/quantum/matrix.o
+ .debug_line    0x00002866      0x3c2 .build/obj_kb_default/common/host.o
+ .debug_line    0x00002c28      0x4f1 .build/obj_kb_default/common/keyboard.o
+ .debug_line    0x00003119     0x1393 .build/obj_kb_default/common/action.o
+ .debug_line    0x000044ac      0xcd8 .build/obj_kb_default/common/action_tapping.o
+ .debug_line    0x00005184      0x527 .build/obj_kb_default/common/action_macro.o
+ .debug_line    0x000056ab      0xa8c .build/obj_kb_default/common/action_layer.o
+ .debug_line    0x00006137      0xbcc .build/obj_kb_default/common/action_util.o
+ .debug_line    0x00006d03       0x93 .build/obj_kb_default/common/debug.o
+ .debug_line    0x00006d96      0x252 .build/obj_kb_default/common/eeconfig.o
+ .debug_line    0x00006fe8      0x47d .build/obj_kb_default/common/avr/suspend.o
+ .debug_line    0x00007465      0x4eb .build/obj_kb_default/common/avr/timer.o
+ .debug_line    0x00007950      0x3b4 .build/obj_kb_default/common/avr/bootloader.o
+ .debug_line    0x00007d04      0x985 .build/obj_kb_default/common/bootmagic.o
+ .debug_line    0x00008689      0xf01 .build/obj_kb_default/common/mousekey.o
+ .debug_line    0x0000958a     0x140e .build/obj_kb_default/lufa.o
+ .debug_line    0x0000a998      0x3c9 .build/obj_kb_default/descriptor.o
+ .debug_line    0x0000ad61      0x2a1 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_line    0x0000b002     0x344e .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_line    0x0000e450      0xa46 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_line    0x0000ee96      0x724 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_line    0x0000f5ba      0xdf8 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_line    0x000103b2      0xdab .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_line    0x0001115d       0x79 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_line    0x000111d6      0x2cb .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_line    0x000114a1       0xc7 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_divmodhi4.o)
+ .debug_line    0x00011568       0x61 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_exit.o)
+ .debug_line    0x000115c9       0x79 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_tablejump2.o)
+ .debug_line    0x00011642       0x97 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_copy_data.o)
+ .debug_line    0x000116d9       0x85 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_clear_bss.o)
+ .debug_line    0x0001175e       0xcd c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_udivmodhi4.o)
 
 .debug_frame    0x00000000     0x18dc
  *(.debug_frame)
@@ -1923,75 +1923,75 @@ END GROUP
  .debug_frame   0x0000188c       0x24 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
  .debug_frame   0x000018b0       0x2c .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
 
-.debug_str      0x00000000     0x4785
+.debug_str      0x00000000     0x477e
  *(.debug_str)
  .debug_str     0x00000000      0x371 c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
- .debug_str     0x00000371      0xdd2 .build/obj_kb_default/keyboards/kb/keymaps/default/keymap.o
-                                0xe7f (size before relaxing)
- .debug_str     0x00001143      0x84b .build/obj_kb_default/quantum/quantum.o
-                               0x137c (size before relaxing)
- .debug_str     0x0000198e      0x2fb .build/obj_kb_default/quantum/keymap_common.o
-                               0x164e (size before relaxing)
- .debug_str     0x00001c89       0x19 .build/obj_kb_default/quantum/keycode_config.o
-                                0x819 (size before relaxing)
- .debug_str     0x00001ca2       0x7a .build/obj_kb_default/quantum/process_keycode/process_leader.o
-                                0xa64 (size before relaxing)
- .debug_str     0x00001d1c      0x173 .build/obj_kb_default/quantum/matrix.o
-                                0x435 (size before relaxing)
- .debug_str     0x00001e8f      0x11d .build/obj_kb_default/common/host.o
-                                0x4a6 (size before relaxing)
- .debug_str     0x00001fac      0x155 .build/obj_kb_default/common/keyboard.o
-                                0x602 (size before relaxing)
- .debug_str     0x00002101      0x38f .build/obj_kb_default/common/action.o
-                               0x14e9 (size before relaxing)
- .debug_str     0x00002490       0xe8 .build/obj_kb_default/common/action_tapping.o
-                                0xba3 (size before relaxing)
- .debug_str     0x00002578       0x76 .build/obj_kb_default/common/action_macro.o
-                                0xa2e (size before relaxing)
- .debug_str     0x000025ee       0x80 .build/obj_kb_default/common/action_layer.o
-                                0x525 (size before relaxing)
- .debug_str     0x0000266e      0x17d .build/obj_kb_default/common/action_util.o
-                                0x7a7 (size before relaxing)
- .debug_str     0x000027eb       0x1a .build/obj_kb_default/common/debug.o
-                                0x1ee (size before relaxing)
- .debug_str     0x00002805       0xea .build/obj_kb_default/common/eeconfig.o
-                                0x2d3 (size before relaxing)
- .debug_str     0x000028ef      0x169 .build/obj_kb_default/common/avr/suspend.o
-                                0x55a (size before relaxing)
- .debug_str     0x00002a58       0x81 .build/obj_kb_default/common/avr/timer.o
-                                0x24f (size before relaxing)
- .debug_str     0x00002ad9       0x69 .build/obj_kb_default/common/avr/bootloader.o
-                                0x395 (size before relaxing)
- .debug_str     0x00002b42       0x35 .build/obj_kb_default/common/bootmagic.o
-                                0xb8e (size before relaxing)
- .debug_str     0x00002b77       0x78 .build/obj_kb_default/common/mousekey.o
-                                0x7d7 (size before relaxing)
- .debug_str     0x00002bef      0x444 .build/obj_kb_default/lufa.o
-                                0xb01 (size before relaxing)
- .debug_str     0x00003033      0x76e .build/obj_kb_default/descriptor.o
-                                0xa7d (size before relaxing)
- .debug_str     0x000037a1       0x77 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
-                                0x303 (size before relaxing)
- .debug_str     0x00003818      0x4d5 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-                                0x8f7 (size before relaxing)
- .debug_str     0x00003ced      0x26d .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
-                                0x6b7 (size before relaxing)
- .debug_str     0x00003f5a      0x19a .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
-                                0x5db (size before relaxing)
- .debug_str     0x000040f4      0x15f .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                                0x6ab (size before relaxing)
- .debug_str     0x00004253      0x426 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
-                                0xa0b (size before relaxing)
- .debug_str     0x00004679       0x50 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
-                                0x1d4 (size before relaxing)
- .debug_str     0x000046c9       0x5e .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
-                                0x40a (size before relaxing)
- .debug_str     0x00004727       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_divmodhi4.o)
- .debug_str     0x00004785       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_exit.o)
- .debug_str     0x00004785       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_tablejump2.o)
- .debug_str     0x00004785       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_copy_data.o)
- .debug_str     0x00004785       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_clear_bss.o)
- .debug_str     0x00004785       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_udivmodhi4.o)
+ .debug_str     0x00000371      0xdcb .build/obj_kb_default/keyboards/kb/keymaps/default/keymap.o
+                                0xe78 (size before relaxing)
+ .debug_str     0x0000113c      0x84b .build/obj_kb_default/quantum/quantum.o
+                               0x1375 (size before relaxing)
+ .debug_str     0x00001987      0x2fb .build/obj_kb_default/quantum/keymap_common.o
+                               0x1647 (size before relaxing)
+ .debug_str     0x00001c82       0x19 .build/obj_kb_default/quantum/keycode_config.o
+                                0x812 (size before relaxing)
+ .debug_str     0x00001c9b       0x7a .build/obj_kb_default/quantum/process_keycode/process_leader.o
+                                0xa5d (size before relaxing)
+ .debug_str     0x00001d15      0x173 .build/obj_kb_default/quantum/matrix.o
+                                0x42e (size before relaxing)
+ .debug_str     0x00001e88      0x11d .build/obj_kb_default/common/host.o
+                                0x49f (size before relaxing)
+ .debug_str     0x00001fa5      0x155 .build/obj_kb_default/common/keyboard.o
+                                0x5fb (size before relaxing)
+ .debug_str     0x000020fa      0x38f .build/obj_kb_default/common/action.o
+                               0x14e2 (size before relaxing)
+ .debug_str     0x00002489       0xe8 .build/obj_kb_default/common/action_tapping.o
+                                0xb9c (size before relaxing)
+ .debug_str     0x00002571       0x76 .build/obj_kb_default/common/action_macro.o
+                                0xa27 (size before relaxing)
+ .debug_str     0x000025e7       0x80 .build/obj_kb_default/common/action_layer.o
+                                0x51e (size before relaxing)
+ .debug_str     0x00002667      0x17d .build/obj_kb_default/common/action_util.o
+                                0x7a0 (size before relaxing)
+ .debug_str     0x000027e4       0x1a .build/obj_kb_default/common/debug.o
+                                0x1e7 (size before relaxing)
+ .debug_str     0x000027fe       0xea .build/obj_kb_default/common/eeconfig.o
+                                0x2cc (size before relaxing)
+ .debug_str     0x000028e8      0x169 .build/obj_kb_default/common/avr/suspend.o
+                                0x553 (size before relaxing)
+ .debug_str     0x00002a51       0x81 .build/obj_kb_default/common/avr/timer.o
+                                0x248 (size before relaxing)
+ .debug_str     0x00002ad2       0x69 .build/obj_kb_default/common/avr/bootloader.o
+                                0x38e (size before relaxing)
+ .debug_str     0x00002b3b       0x35 .build/obj_kb_default/common/bootmagic.o
+                                0xb87 (size before relaxing)
+ .debug_str     0x00002b70       0x78 .build/obj_kb_default/common/mousekey.o
+                                0x7d0 (size before relaxing)
+ .debug_str     0x00002be8      0x444 .build/obj_kb_default/lufa.o
+                                0xafa (size before relaxing)
+ .debug_str     0x0000302c      0x76e .build/obj_kb_default/descriptor.o
+                                0xa76 (size before relaxing)
+ .debug_str     0x0000379a       0x77 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                                0x2fc (size before relaxing)
+ .debug_str     0x00003811      0x4d5 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                0x8f0 (size before relaxing)
+ .debug_str     0x00003ce6      0x26d .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                0x6b0 (size before relaxing)
+ .debug_str     0x00003f53      0x19a .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                0x5d4 (size before relaxing)
+ .debug_str     0x000040ed      0x15f .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                0x6a4 (size before relaxing)
+ .debug_str     0x0000424c      0x426 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                0xa04 (size before relaxing)
+ .debug_str     0x00004672       0x50 .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+                                0x1cd (size before relaxing)
+ .debug_str     0x000046c2       0x5e .build/obj_kb_default/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                0x403 (size before relaxing)
+ .debug_str     0x00004720       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_divmodhi4.o)
+ .debug_str     0x0000477e       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_exit.o)
+ .debug_str     0x0000477e       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_tablejump2.o)
+ .debug_str     0x0000477e       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_copy_data.o)
+ .debug_str     0x0000477e       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_clear_bss.o)
+ .debug_str     0x0000477e       0x5e c:/msys64/home/pc-office/qmk_utils/avr8-gnu-toolchain/bin/../lib/gcc/avr/8.3.0/avr5\libgcc.a(_udivmodhi4.o)
 
 .debug_loc      0x00000000     0x8aef
  *(.debug_loc)

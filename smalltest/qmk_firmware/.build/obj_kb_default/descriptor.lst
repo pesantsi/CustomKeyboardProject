@@ -1679,24 +1679,24 @@
  684               		.file 11 "./tmk_core/protocol/lufa/descriptor.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 descriptor.c
-C:\msys64\tmp\ccVWbtIS.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccVWbtIS.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccVWbtIS.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccVWbtIS.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccVWbtIS.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccVWbtIS.s:13     .text.CALLBACK_USB_GetDescriptor:00000000 CALLBACK_USB_GetDescriptor
-C:\msys64\tmp\ccVWbtIS.s:224    .rodata.CSWTCH.1:00000000 CSWTCH.1
-C:\msys64\tmp\ccVWbtIS.s:216    .rodata.CSWTCH.2:00000000 CSWTCH.2
-C:\msys64\tmp\ccVWbtIS.s:241    .progmem.data.ProductString:00000000 ProductString
-C:\msys64\tmp\ccVWbtIS.s:277    .progmem.data.LanguageString:00000000 LanguageString
-C:\msys64\tmp\ccVWbtIS.s:258    .progmem.data.ManufacturerString:00000000 ManufacturerString
-C:\msys64\tmp\ccVWbtIS.s:232    .rodata.CSWTCH.0:00000000 CSWTCH.0
-C:\msys64\tmp\ccVWbtIS.s:386    .progmem.data.DeviceDescriptor:00000000 DeviceDescriptor
-C:\msys64\tmp\ccVWbtIS.s:285    .progmem.data.ConfigurationDescriptor:00000000 ConfigurationDescriptor
-C:\msys64\tmp\ccVWbtIS.s:608    .progmem.data.KeyboardReport:00000000 KeyboardReport
-C:\msys64\tmp\ccVWbtIS.s:526    .progmem.data.MouseReport:00000000 MouseReport
-C:\msys64\tmp\ccVWbtIS.s:467    .progmem.data.ExtrakeyReport:00000000 ExtrakeyReport
-C:\msys64\tmp\ccVWbtIS.s:405    .progmem.data.NKROReport:00000000 NKROReport
+C:\msys64\tmp\cc4Q0U5I.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\cc4Q0U5I.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\cc4Q0U5I.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\cc4Q0U5I.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\cc4Q0U5I.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\cc4Q0U5I.s:13     .text.CALLBACK_USB_GetDescriptor:00000000 CALLBACK_USB_GetDescriptor
+C:\msys64\tmp\cc4Q0U5I.s:224    .rodata.CSWTCH.1:00000000 CSWTCH.1
+C:\msys64\tmp\cc4Q0U5I.s:216    .rodata.CSWTCH.2:00000000 CSWTCH.2
+C:\msys64\tmp\cc4Q0U5I.s:241    .progmem.data.ProductString:00000000 ProductString
+C:\msys64\tmp\cc4Q0U5I.s:277    .progmem.data.LanguageString:00000000 LanguageString
+C:\msys64\tmp\cc4Q0U5I.s:258    .progmem.data.ManufacturerString:00000000 ManufacturerString
+C:\msys64\tmp\cc4Q0U5I.s:232    .rodata.CSWTCH.0:00000000 CSWTCH.0
+C:\msys64\tmp\cc4Q0U5I.s:386    .progmem.data.DeviceDescriptor:00000000 DeviceDescriptor
+C:\msys64\tmp\cc4Q0U5I.s:285    .progmem.data.ConfigurationDescriptor:00000000 ConfigurationDescriptor
+C:\msys64\tmp\cc4Q0U5I.s:608    .progmem.data.KeyboardReport:00000000 KeyboardReport
+C:\msys64\tmp\cc4Q0U5I.s:526    .progmem.data.MouseReport:00000000 MouseReport
+C:\msys64\tmp\cc4Q0U5I.s:467    .progmem.data.ExtrakeyReport:00000000 ExtrakeyReport
+C:\msys64\tmp\cc4Q0U5I.s:405    .progmem.data.NKROReport:00000000 NKROReport
 
 UNDEFINED SYMBOLS
 __do_copy_data

@@ -4657,30 +4657,30 @@
  1554               		.file 31 "./tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/EndpointStream_AVR8
 DEFINED SYMBOLS
                             *ABS*:00000000 lufa.c
-C:\msys64\tmp\ccrXETTb.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccrXETTb.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccrXETTb.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccrXETTb.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccrXETTb.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccrXETTb.s:12     .text.keyboard_leds:00000000 keyboard_leds
-C:\msys64\tmp\ccrXETTb.s:1514   .bss.keyboard_led_stats:00000000 keyboard_led_stats
-C:\msys64\tmp\ccrXETTb.s:31     .text.send_consumer:00000000 send_consumer
-C:\msys64\tmp\ccrXETTb.s:191    .text.send_system:00000000 send_system
-C:\msys64\tmp\ccrXETTb.s:346    .text.send_mouse:00000000 send_mouse
-C:\msys64\tmp\ccrXETTb.s:479    .text.send_keyboard:00000000 send_keyboard
-C:\msys64\tmp\ccrXETTb.s:1520   .data.keyboard_protocol:00000000 keyboard_protocol
-C:\msys64\tmp\ccrXETTb.s:1509   .bss.keyboard_report_sent:00000000 keyboard_report_sent
-C:\msys64\tmp\ccrXETTb.s:724    .text.EVENT_USB_Device_Connect:00000000 EVENT_USB_Device_Connect
-C:\msys64\tmp\ccrXETTb.s:780    .text.EVENT_USB_Device_Disconnect:00000000 EVENT_USB_Device_Disconnect
-C:\msys64\tmp\ccrXETTb.s:801    .text.EVENT_USB_Device_Reset:00000000 EVENT_USB_Device_Reset
-C:\msys64\tmp\ccrXETTb.s:816    .text.EVENT_USB_Device_Suspend:00000000 EVENT_USB_Device_Suspend
-C:\msys64\tmp\ccrXETTb.s:834    .text.EVENT_USB_Device_WakeUp:00000000 EVENT_USB_Device_WakeUp
-C:\msys64\tmp\ccrXETTb.s:852    .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
-C:\msys64\tmp\ccrXETTb.s:971    .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
-C:\msys64\tmp\ccrXETTb.s:1526   .bss.keyboard_idle:00000000 keyboard_idle
-C:\msys64\tmp\ccrXETTb.s:1322   .text.sendchar:00000000 sendchar
-C:\msys64\tmp\ccrXETTb.s:1344   .text.startup.main:00000000 main
-C:\msys64\tmp\ccrXETTb.s:1500   .data.lufa_driver:00000000 lufa_driver
+C:\msys64\tmp\ccBUQmS9.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccBUQmS9.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccBUQmS9.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccBUQmS9.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccBUQmS9.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccBUQmS9.s:12     .text.keyboard_leds:00000000 keyboard_leds
+C:\msys64\tmp\ccBUQmS9.s:1514   .bss.keyboard_led_stats:00000000 keyboard_led_stats
+C:\msys64\tmp\ccBUQmS9.s:31     .text.send_consumer:00000000 send_consumer
+C:\msys64\tmp\ccBUQmS9.s:191    .text.send_system:00000000 send_system
+C:\msys64\tmp\ccBUQmS9.s:346    .text.send_mouse:00000000 send_mouse
+C:\msys64\tmp\ccBUQmS9.s:479    .text.send_keyboard:00000000 send_keyboard
+C:\msys64\tmp\ccBUQmS9.s:1520   .data.keyboard_protocol:00000000 keyboard_protocol
+C:\msys64\tmp\ccBUQmS9.s:1509   .bss.keyboard_report_sent:00000000 keyboard_report_sent
+C:\msys64\tmp\ccBUQmS9.s:724    .text.EVENT_USB_Device_Connect:00000000 EVENT_USB_Device_Connect
+C:\msys64\tmp\ccBUQmS9.s:780    .text.EVENT_USB_Device_Disconnect:00000000 EVENT_USB_Device_Disconnect
+C:\msys64\tmp\ccBUQmS9.s:801    .text.EVENT_USB_Device_Reset:00000000 EVENT_USB_Device_Reset
+C:\msys64\tmp\ccBUQmS9.s:816    .text.EVENT_USB_Device_Suspend:00000000 EVENT_USB_Device_Suspend
+C:\msys64\tmp\ccBUQmS9.s:834    .text.EVENT_USB_Device_WakeUp:00000000 EVENT_USB_Device_WakeUp
+C:\msys64\tmp\ccBUQmS9.s:852    .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
+C:\msys64\tmp\ccBUQmS9.s:971    .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
+C:\msys64\tmp\ccBUQmS9.s:1526   .bss.keyboard_idle:00000000 keyboard_idle
+C:\msys64\tmp\ccBUQmS9.s:1322   .text.sendchar:00000000 sendchar
+C:\msys64\tmp\ccBUQmS9.s:1344   .text.startup.main:00000000 main
+C:\msys64\tmp\ccBUQmS9.s:1500   .data.lufa_driver:00000000 lufa_driver
 
 UNDEFINED SYMBOLS
 USB_DeviceState

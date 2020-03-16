@@ -816,19 +816,19 @@
  703               		.file 2 "c:\\msys64\\home\\pc-office\\qmk_utils\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 util.c
-C:\msys64\tmp\ccSw1T0g.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccSw1T0g.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccSw1T0g.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccSw1T0g.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccSw1T0g.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccSw1T0g.s:13     .text.bitpop:00000000 bitpop
-C:\msys64\tmp\ccSw1T0g.s:59     .text.bitpop16:00000000 bitpop16
-C:\msys64\tmp\ccSw1T0g.s:108    .text.bitpop32:00000000 bitpop32
-C:\msys64\tmp\ccSw1T0g.s:185    .text.biton:00000000 biton
-C:\msys64\tmp\ccSw1T0g.s:249    .text.biton16:00000000 biton16
-C:\msys64\tmp\ccSw1T0g.s:345    .text.biton32:00000000 biton32
-C:\msys64\tmp\ccSw1T0g.s:508    .text.bitrev:00000000 bitrev
-C:\msys64\tmp\ccSw1T0g.s:568    .text.bitrev16:00000000 bitrev16
-C:\msys64\tmp\ccSw1T0g.s:612    .text.bitrev32:00000000 bitrev32
+C:\msys64\tmp\ccygZaGV.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccygZaGV.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccygZaGV.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccygZaGV.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccygZaGV.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccygZaGV.s:13     .text.bitpop:00000000 bitpop
+C:\msys64\tmp\ccygZaGV.s:59     .text.bitpop16:00000000 bitpop16
+C:\msys64\tmp\ccygZaGV.s:108    .text.bitpop32:00000000 bitpop32
+C:\msys64\tmp\ccygZaGV.s:185    .text.biton:00000000 biton
+C:\msys64\tmp\ccygZaGV.s:249    .text.biton16:00000000 biton16
+C:\msys64\tmp\ccygZaGV.s:345    .text.biton32:00000000 biton32
+C:\msys64\tmp\ccygZaGV.s:508    .text.bitrev:00000000 bitrev
+C:\msys64\tmp\ccygZaGV.s:568    .text.bitrev16:00000000 bitrev16
+C:\msys64\tmp\ccygZaGV.s:612    .text.bitrev32:00000000 bitrev32
 
 NO UNDEFINED SYMBOLS

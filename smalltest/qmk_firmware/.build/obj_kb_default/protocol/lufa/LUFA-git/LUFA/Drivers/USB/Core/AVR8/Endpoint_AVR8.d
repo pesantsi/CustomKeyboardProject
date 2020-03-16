@@ -27,7 +27,7 @@
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../USBTask.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../USBInterrupt.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/USBInterrupt_AVR8.h \
- c:\users\pc-office\onedrive\arduino\smalltest\qmk_firmware\tmk_core\protocol\lufa\lufa-git\lufa\common\common.h \
+ d:\git\customkeyboardproject\smalltest\qmk_firmware\tmk_core\protocol\lufa\lufa-git\lufa\common\common.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/../USBMode.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/../Events.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/../USBController.h \
@@ -110,7 +110,7 @@ tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../US
 
 tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/USBInterrupt_AVR8.h:
 
-c:\users\pc-office\onedrive\arduino\smalltest\qmk_firmware\tmk_core\protocol\lufa\lufa-git\lufa\common\common.h:
+d:\git\customkeyboardproject\smalltest\qmk_firmware\tmk_core\protocol\lufa\lufa-git\lufa\common\common.h:
 
 tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/../USBMode.h:
 

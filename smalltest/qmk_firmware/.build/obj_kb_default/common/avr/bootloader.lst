@@ -972,14 +972,14 @@
  187               		.file 10 "./tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 bootloader.c
-C:\msys64\tmp\ccd97TDO.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccd97TDO.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccd97TDO.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccd97TDO.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccd97TDO.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccd97TDO.s:13     .text.bootloader_jump:00000000 bootloader_jump
-C:\msys64\tmp\ccd97TDO.s:177    .noinit:00000000 reset_key
-C:\msys64\tmp\ccd97TDO.s:100    .init3:00000000 bootloader_jump_after_watchdog_reset
+C:\msys64\tmp\ccuHsR1r.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccuHsR1r.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccuHsR1r.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccuHsR1r.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccuHsR1r.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccuHsR1r.s:13     .text.bootloader_jump:00000000 bootloader_jump
+C:\msys64\tmp\ccuHsR1r.s:177    .noinit:00000000 reset_key
+C:\msys64\tmp\ccuHsR1r.s:100    .init3:00000000 bootloader_jump_after_watchdog_reset
 
 UNDEFINED SYMBOLS
 USB_Disable

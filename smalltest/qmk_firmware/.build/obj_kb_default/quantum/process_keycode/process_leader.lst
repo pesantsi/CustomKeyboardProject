@@ -284,19 +284,19 @@
  224               		.file 20 "./quantum/quantum_keycodes.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 process_leader.c
-C:\msys64\tmp\cclqolqq.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\cclqolqq.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\cclqolqq.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\cclqolqq.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\cclqolqq.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\cclqolqq.s:13     .text.leader_start:00000000 leader_start
-C:\msys64\tmp\cclqolqq.s:13     .text.leader_start:00000000 leader_start.localalias.0
-C:\msys64\tmp\cclqolqq.s:33     .text.leader_end:00000000 leader_end
-C:\msys64\tmp\cclqolqq.s:48     .text.process_leader:00000000 process_leader
-C:\msys64\tmp\cclqolqq.s:202    .bss.leading:00000000 leading
-C:\msys64\tmp\cclqolqq.s:196    .bss.leader_time:00000000 leader_time
-C:\msys64\tmp\cclqolqq.s:184    .bss.leader_sequence_size:00000000 leader_sequence_size
-C:\msys64\tmp\cclqolqq.s:190    .bss.leader_sequence:00000000 leader_sequence
+C:\msys64\tmp\cchGhcWj.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\cchGhcWj.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\cchGhcWj.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\cchGhcWj.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\cchGhcWj.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\cchGhcWj.s:13     .text.leader_start:00000000 leader_start
+C:\msys64\tmp\cchGhcWj.s:13     .text.leader_start:00000000 leader_start.localalias.0
+C:\msys64\tmp\cchGhcWj.s:33     .text.leader_end:00000000 leader_end
+C:\msys64\tmp\cchGhcWj.s:48     .text.process_leader:00000000 process_leader
+C:\msys64\tmp\cchGhcWj.s:202    .bss.leading:00000000 leading
+C:\msys64\tmp\cchGhcWj.s:196    .bss.leader_time:00000000 leader_time
+C:\msys64\tmp\cchGhcWj.s:184    .bss.leader_sequence_size:00000000 leader_sequence_size
+C:\msys64\tmp\cchGhcWj.s:190    .bss.leader_sequence:00000000 leader_sequence
 
 UNDEFINED SYMBOLS
 timer_read

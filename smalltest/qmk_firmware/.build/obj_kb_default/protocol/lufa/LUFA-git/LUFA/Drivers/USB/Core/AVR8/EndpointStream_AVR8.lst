@@ -7188,33 +7188,33 @@
  5032               		.file 12 "c:\\msys64\\home\\pc-office\\qmk_utils\\avr8-gnu-toolchain\\avr\\include\\avr\\eeprom.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 EndpointStream_AVR8.c
-C:\msys64\tmp\ccIDlaFj.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccIDlaFj.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccIDlaFj.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccIDlaFj.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccIDlaFj.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccIDlaFj.s:13     .text.Endpoint_Discard_Stream:00000000 Endpoint_Discard_Stream
-C:\msys64\tmp\ccIDlaFj.s:195    .text.Endpoint_Null_Stream:00000000 Endpoint_Null_Stream
-C:\msys64\tmp\ccIDlaFj.s:375    .text.Endpoint_Write_Stream_LE:00000000 Endpoint_Write_Stream_LE
-C:\msys64\tmp\ccIDlaFj.s:580    .text.Endpoint_Write_Stream_BE:00000000 Endpoint_Write_Stream_BE
-C:\msys64\tmp\ccIDlaFj.s:794    .text.Endpoint_Read_Stream_LE:00000000 Endpoint_Read_Stream_LE
-C:\msys64\tmp\ccIDlaFj.s:997    .text.Endpoint_Read_Stream_BE:00000000 Endpoint_Read_Stream_BE
-C:\msys64\tmp\ccIDlaFj.s:1209   .text.Endpoint_Write_PStream_LE:00000000 Endpoint_Write_PStream_LE
-C:\msys64\tmp\ccIDlaFj.s:1427   .text.Endpoint_Write_PStream_BE:00000000 Endpoint_Write_PStream_BE
-C:\msys64\tmp\ccIDlaFj.s:1654   .text.Endpoint_Write_EStream_LE:00000000 Endpoint_Write_EStream_LE
-C:\msys64\tmp\ccIDlaFj.s:1860   .text.Endpoint_Write_EStream_BE:00000000 Endpoint_Write_EStream_BE
-C:\msys64\tmp\ccIDlaFj.s:2075   .text.Endpoint_Read_EStream_LE:00000000 Endpoint_Read_EStream_LE
-C:\msys64\tmp\ccIDlaFj.s:2280   .text.Endpoint_Read_EStream_BE:00000000 Endpoint_Read_EStream_BE
-C:\msys64\tmp\ccIDlaFj.s:2494   .text.Endpoint_Write_Control_Stream_LE:00000000 Endpoint_Write_Control_Stream_LE
-C:\msys64\tmp\ccIDlaFj.s:2770   .text.Endpoint_Write_Control_Stream_BE:00000000 Endpoint_Write_Control_Stream_BE
-C:\msys64\tmp\ccIDlaFj.s:3049   .text.Endpoint_Read_Control_Stream_LE:00000000 Endpoint_Read_Control_Stream_LE
-C:\msys64\tmp\ccIDlaFj.s:3230   .text.Endpoint_Read_Control_Stream_BE:00000000 Endpoint_Read_Control_Stream_BE
-C:\msys64\tmp\ccIDlaFj.s:3420   .text.Endpoint_Write_Control_PStream_LE:00000000 Endpoint_Write_Control_PStream_LE
-C:\msys64\tmp\ccIDlaFj.s:3707   .text.Endpoint_Write_Control_PStream_BE:00000000 Endpoint_Write_Control_PStream_BE
-C:\msys64\tmp\ccIDlaFj.s:3996   .text.Endpoint_Write_Control_EStream_LE:00000000 Endpoint_Write_Control_EStream_LE
-C:\msys64\tmp\ccIDlaFj.s:4301   .text.Endpoint_Write_Control_EStream_BE:00000000 Endpoint_Write_Control_EStream_BE
-C:\msys64\tmp\ccIDlaFj.s:4613   .text.Endpoint_Read_Control_EStream_LE:00000000 Endpoint_Read_Control_EStream_LE
-C:\msys64\tmp\ccIDlaFj.s:4817   .text.Endpoint_Read_Control_EStream_BE:00000000 Endpoint_Read_Control_EStream_BE
+C:\msys64\tmp\ccHiKPT3.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccHiKPT3.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccHiKPT3.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccHiKPT3.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccHiKPT3.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccHiKPT3.s:13     .text.Endpoint_Discard_Stream:00000000 Endpoint_Discard_Stream
+C:\msys64\tmp\ccHiKPT3.s:195    .text.Endpoint_Null_Stream:00000000 Endpoint_Null_Stream
+C:\msys64\tmp\ccHiKPT3.s:375    .text.Endpoint_Write_Stream_LE:00000000 Endpoint_Write_Stream_LE
+C:\msys64\tmp\ccHiKPT3.s:580    .text.Endpoint_Write_Stream_BE:00000000 Endpoint_Write_Stream_BE
+C:\msys64\tmp\ccHiKPT3.s:794    .text.Endpoint_Read_Stream_LE:00000000 Endpoint_Read_Stream_LE
+C:\msys64\tmp\ccHiKPT3.s:997    .text.Endpoint_Read_Stream_BE:00000000 Endpoint_Read_Stream_BE
+C:\msys64\tmp\ccHiKPT3.s:1209   .text.Endpoint_Write_PStream_LE:00000000 Endpoint_Write_PStream_LE
+C:\msys64\tmp\ccHiKPT3.s:1427   .text.Endpoint_Write_PStream_BE:00000000 Endpoint_Write_PStream_BE
+C:\msys64\tmp\ccHiKPT3.s:1654   .text.Endpoint_Write_EStream_LE:00000000 Endpoint_Write_EStream_LE
+C:\msys64\tmp\ccHiKPT3.s:1860   .text.Endpoint_Write_EStream_BE:00000000 Endpoint_Write_EStream_BE
+C:\msys64\tmp\ccHiKPT3.s:2075   .text.Endpoint_Read_EStream_LE:00000000 Endpoint_Read_EStream_LE
+C:\msys64\tmp\ccHiKPT3.s:2280   .text.Endpoint_Read_EStream_BE:00000000 Endpoint_Read_EStream_BE
+C:\msys64\tmp\ccHiKPT3.s:2494   .text.Endpoint_Write_Control_Stream_LE:00000000 Endpoint_Write_Control_Stream_LE
+C:\msys64\tmp\ccHiKPT3.s:2770   .text.Endpoint_Write_Control_Stream_BE:00000000 Endpoint_Write_Control_Stream_BE
+C:\msys64\tmp\ccHiKPT3.s:3049   .text.Endpoint_Read_Control_Stream_LE:00000000 Endpoint_Read_Control_Stream_LE
+C:\msys64\tmp\ccHiKPT3.s:3230   .text.Endpoint_Read_Control_Stream_BE:00000000 Endpoint_Read_Control_Stream_BE
+C:\msys64\tmp\ccHiKPT3.s:3420   .text.Endpoint_Write_Control_PStream_LE:00000000 Endpoint_Write_Control_PStream_LE
+C:\msys64\tmp\ccHiKPT3.s:3707   .text.Endpoint_Write_Control_PStream_BE:00000000 Endpoint_Write_Control_PStream_BE
+C:\msys64\tmp\ccHiKPT3.s:3996   .text.Endpoint_Write_Control_EStream_LE:00000000 Endpoint_Write_Control_EStream_LE
+C:\msys64\tmp\ccHiKPT3.s:4301   .text.Endpoint_Write_Control_EStream_BE:00000000 Endpoint_Write_Control_EStream_BE
+C:\msys64\tmp\ccHiKPT3.s:4613   .text.Endpoint_Read_Control_EStream_LE:00000000 Endpoint_Read_Control_EStream_LE
+C:\msys64\tmp\ccHiKPT3.s:4817   .text.Endpoint_Read_Control_EStream_BE:00000000 Endpoint_Read_Control_EStream_BE
 
 UNDEFINED SYMBOLS
 Endpoint_WaitUntilReady

@@ -3308,27 +3308,27 @@
  2193               		.file 20 "./tmk_core/common/action_tapping.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 action.c
-C:\msys64\tmp\ccQLohGf.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccQLohGf.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccQLohGf.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccQLohGf.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccQLohGf.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccQLohGf.s:13     .text.action_exec:00000000 action_exec
-C:\msys64\tmp\ccQLohGf.s:94     .text.process_record_quantum:00000000 process_record_quantum
-C:\msys64\tmp\ccQLohGf.s:116    .text.register_code:00000000 register_code
-C:\msys64\tmp\ccQLohGf.s:557    .text.unregister_code:00000000 unregister_code
-C:\msys64\tmp\ccQLohGf.s:715    .text.register_mods:00000000 register_mods
-C:\msys64\tmp\ccQLohGf.s:744    .text.unregister_mods:00000000 unregister_mods
-C:\msys64\tmp\ccQLohGf.s:773    .text.process_action:00000000 process_action
-C:\msys64\tmp\ccQLohGf.s:1772   .text.process_record:00000000 process_record
-C:\msys64\tmp\ccQLohGf.s:1883   .text.process_record_nocache:00000000 process_record_nocache
-C:\msys64\tmp\ccQLohGf.s:2172   .bss.disable_action_cache:00000000 disable_action_cache
-C:\msys64\tmp\ccQLohGf.s:1911   .text.clear_keyboard_but_mods:00000000 clear_keyboard_but_mods
-C:\msys64\tmp\ccQLohGf.s:1953   .text.clear_keyboard:00000000 clear_keyboard
-C:\msys64\tmp\ccQLohGf.s:1973   .text.is_tap_key:00000000 is_tap_key
-C:\msys64\tmp\ccQLohGf.s:2065   .text.debug_event:00000000 debug_event
-C:\msys64\tmp\ccQLohGf.s:2107   .text.debug_record:00000000 debug_record
-C:\msys64\tmp\ccQLohGf.s:2151   .text.debug_action:00000000 debug_action
+C:\msys64\tmp\cc5WDOaS.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\cc5WDOaS.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\cc5WDOaS.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\cc5WDOaS.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\cc5WDOaS.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\cc5WDOaS.s:13     .text.action_exec:00000000 action_exec
+C:\msys64\tmp\cc5WDOaS.s:94     .text.process_record_quantum:00000000 process_record_quantum
+C:\msys64\tmp\cc5WDOaS.s:116    .text.register_code:00000000 register_code
+C:\msys64\tmp\cc5WDOaS.s:557    .text.unregister_code:00000000 unregister_code
+C:\msys64\tmp\cc5WDOaS.s:715    .text.register_mods:00000000 register_mods
+C:\msys64\tmp\cc5WDOaS.s:744    .text.unregister_mods:00000000 unregister_mods
+C:\msys64\tmp\cc5WDOaS.s:773    .text.process_action:00000000 process_action
+C:\msys64\tmp\cc5WDOaS.s:1772   .text.process_record:00000000 process_record
+C:\msys64\tmp\cc5WDOaS.s:1883   .text.process_record_nocache:00000000 process_record_nocache
+C:\msys64\tmp\cc5WDOaS.s:2172   .bss.disable_action_cache:00000000 disable_action_cache
+C:\msys64\tmp\cc5WDOaS.s:1911   .text.clear_keyboard_but_mods:00000000 clear_keyboard_but_mods
+C:\msys64\tmp\cc5WDOaS.s:1953   .text.clear_keyboard:00000000 clear_keyboard
+C:\msys64\tmp\cc5WDOaS.s:1973   .text.is_tap_key:00000000 is_tap_key
+C:\msys64\tmp\cc5WDOaS.s:2065   .text.debug_event:00000000 debug_event
+C:\msys64\tmp\cc5WDOaS.s:2107   .text.debug_record:00000000 debug_record
+C:\msys64\tmp\cc5WDOaS.s:2151   .text.debug_action:00000000 debug_action
 
 UNDEFINED SYMBOLS
 action_tapping_process

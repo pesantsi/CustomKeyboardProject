@@ -374,23 +374,23 @@
  306               		.file 11 "./tmk_core/common/debug.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 host.c
-C:\msys64\tmp\cc00LvVd.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\cc00LvVd.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\cc00LvVd.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\cc00LvVd.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\cc00LvVd.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\cc00LvVd.s:13     .text.host_set_driver:00000000 host_set_driver
-C:\msys64\tmp\cc00LvVd.s:293    .bss.driver:00000000 driver
-C:\msys64\tmp\cc00LvVd.s:36     .text.host_get_driver:00000000 host_get_driver
-C:\msys64\tmp\cc00LvVd.s:56     .text.host_keyboard_leds:00000000 host_keyboard_leds
-C:\msys64\tmp\cc00LvVd.s:89     .text.host_keyboard_send:00000000 host_keyboard_send
-C:\msys64\tmp\cc00LvVd.s:122    .text.host_mouse_send:00000000 host_mouse_send
-C:\msys64\tmp\cc00LvVd.s:155    .text.host_system_send:00000000 host_system_send
-C:\msys64\tmp\cc00LvVd.s:288    .bss.last_system_report:00000000 last_system_report
-C:\msys64\tmp\cc00LvVd.s:199    .text.host_consumer_send:00000000 host_consumer_send
-C:\msys64\tmp\cc00LvVd.s:283    .bss.last_consumer_report:00000000 last_consumer_report
-C:\msys64\tmp\cc00LvVd.s:243    .text.host_last_system_report:00000000 host_last_system_report
-C:\msys64\tmp\cc00LvVd.s:263    .text.host_last_consumer_report:00000000 host_last_consumer_report
+C:\msys64\tmp\ccQNB9k6.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccQNB9k6.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccQNB9k6.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccQNB9k6.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccQNB9k6.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccQNB9k6.s:13     .text.host_set_driver:00000000 host_set_driver
+C:\msys64\tmp\ccQNB9k6.s:293    .bss.driver:00000000 driver
+C:\msys64\tmp\ccQNB9k6.s:36     .text.host_get_driver:00000000 host_get_driver
+C:\msys64\tmp\ccQNB9k6.s:56     .text.host_keyboard_leds:00000000 host_keyboard_leds
+C:\msys64\tmp\ccQNB9k6.s:89     .text.host_keyboard_send:00000000 host_keyboard_send
+C:\msys64\tmp\ccQNB9k6.s:122    .text.host_mouse_send:00000000 host_mouse_send
+C:\msys64\tmp\ccQNB9k6.s:155    .text.host_system_send:00000000 host_system_send
+C:\msys64\tmp\ccQNB9k6.s:288    .bss.last_system_report:00000000 last_system_report
+C:\msys64\tmp\ccQNB9k6.s:199    .text.host_consumer_send:00000000 host_consumer_send
+C:\msys64\tmp\ccQNB9k6.s:283    .bss.last_consumer_report:00000000 last_consumer_report
+C:\msys64\tmp\ccQNB9k6.s:243    .text.host_last_system_report:00000000 host_last_system_report
+C:\msys64\tmp\ccQNB9k6.s:263    .text.host_last_consumer_report:00000000 host_last_consumer_report
 
 UNDEFINED SYMBOLS
 __do_clear_bss

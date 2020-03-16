@@ -18,12 +18,12 @@
   20               		.file 3 "./tmk_core/common/debug.c"
 DEFINED SYMBOLS
                             *ABS*:00000000 debug.c
-C:\msys64\tmp\ccdaW3G0.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccdaW3G0.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccdaW3G0.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccdaW3G0.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccdaW3G0.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccdaW3G0.s:14     .bss.debug_config:00000000 debug_config
+C:\msys64\tmp\cccBGYhv.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\cccBGYhv.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\cccBGYhv.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\cccBGYhv.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\cccBGYhv.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\cccBGYhv.s:14     .bss.debug_config:00000000 debug_config
 
 UNDEFINED SYMBOLS
 __do_clear_bss

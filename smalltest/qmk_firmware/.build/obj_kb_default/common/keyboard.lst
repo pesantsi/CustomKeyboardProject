@@ -649,18 +649,18 @@
  436               		.file 20 "./tmk_core/common/bootmagic.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 keyboard.c
-C:\msys64\tmp\cciKgPSH.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\cciKgPSH.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\cciKgPSH.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\cciKgPSH.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\cciKgPSH.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\cciKgPSH.s:13     .text.matrix_setup:00000000 matrix_setup
-C:\msys64\tmp\cciKgPSH.s:31     .text.keyboard_setup:00000000 keyboard_setup
-C:\msys64\tmp\cciKgPSH.s:48     .text.keyboard_init:00000000 keyboard_init
-C:\msys64\tmp\cciKgPSH.s:71     .text.keyboard_task:00000000 keyboard_task
-C:\msys64\tmp\cciKgPSH.s:414    .bss.matrix_prev.5005:00000000 matrix_prev.5005
-C:\msys64\tmp\cciKgPSH.s:409    .bss.led_status.5006:00000000 led_status.5006
-C:\msys64\tmp\cciKgPSH.s:386    .text.keyboard_set_leds:00000000 keyboard_set_leds
+C:\msys64\tmp\ccJrXKTm.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccJrXKTm.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccJrXKTm.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccJrXKTm.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccJrXKTm.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccJrXKTm.s:13     .text.matrix_setup:00000000 matrix_setup
+C:\msys64\tmp\ccJrXKTm.s:31     .text.keyboard_setup:00000000 keyboard_setup
+C:\msys64\tmp\ccJrXKTm.s:48     .text.keyboard_init:00000000 keyboard_init
+C:\msys64\tmp\ccJrXKTm.s:71     .text.keyboard_task:00000000 keyboard_task
+C:\msys64\tmp\ccJrXKTm.s:414    .bss.matrix_prev.5005:00000000 matrix_prev.5005
+C:\msys64\tmp\ccJrXKTm.s:409    .bss.led_status.5006:00000000 led_status.5006
+C:\msys64\tmp\ccJrXKTm.s:386    .text.keyboard_set_leds:00000000 keyboard_set_leds
 
 UNDEFINED SYMBOLS
 timer_init

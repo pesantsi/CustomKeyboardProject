@@ -39,7 +39,7 @@
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../Device.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../Endpoint.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/Endpoint_AVR8.h \
- c:\users\pc-office\onedrive\arduino\smalltest\qmk_firmware\tmk_core\protocol\lufa\lufa-git\lufa\common\common.h \
+ d:\git\customkeyboardproject\smalltest\qmk_firmware\tmk_core\protocol\lufa\lufa-git\lufa\common\common.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/../USBTask.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/../USBInterrupt.h \
  tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../DeviceStandardReq.h \
@@ -132,7 +132,7 @@ tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../En
 
 tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/Endpoint_AVR8.h:
 
-c:\users\pc-office\onedrive\arduino\smalltest\qmk_firmware\tmk_core\protocol\lufa\lufa-git\lufa\common\common.h:
+d:\git\customkeyboardproject\smalltest\qmk_firmware\tmk_core\protocol\lufa\lufa-git\lufa\common\common.h:
 
 tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../AVR8/../USBTask.h:
 

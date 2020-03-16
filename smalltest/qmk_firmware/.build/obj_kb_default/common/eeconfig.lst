@@ -290,21 +290,21 @@
  264               		.file 3 "c:\\msys64\\home\\pc-office\\qmk_utils\\avr8-gnu-toolchain\\avr\\include\\avr\\eeprom.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 eeconfig.c
-C:\msys64\tmp\cca2We7I.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\cca2We7I.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\cca2We7I.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\cca2We7I.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\cca2We7I.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\cca2We7I.s:13     .text.eeconfig_init:00000000 eeconfig_init
-C:\msys64\tmp\cca2We7I.s:59     .text.eeconfig_enable:00000000 eeconfig_enable
-C:\msys64\tmp\cca2We7I.s:80     .text.eeconfig_disable:00000000 eeconfig_disable
-C:\msys64\tmp\cca2We7I.s:101    .text.eeconfig_is_enabled:00000000 eeconfig_is_enabled
-C:\msys64\tmp\cca2We7I.s:132    .text.eeconfig_read_debug:00000000 eeconfig_read_debug
-C:\msys64\tmp\cca2We7I.s:152    .text.eeconfig_update_debug:00000000 eeconfig_update_debug
-C:\msys64\tmp\cca2We7I.s:176    .text.eeconfig_read_default_layer:00000000 eeconfig_read_default_layer
-C:\msys64\tmp\cca2We7I.s:196    .text.eeconfig_update_default_layer:00000000 eeconfig_update_default_layer
-C:\msys64\tmp\cca2We7I.s:220    .text.eeconfig_read_keymap:00000000 eeconfig_read_keymap
-C:\msys64\tmp\cca2We7I.s:240    .text.eeconfig_update_keymap:00000000 eeconfig_update_keymap
+C:\msys64\tmp\ccbk1Hng.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccbk1Hng.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccbk1Hng.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccbk1Hng.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccbk1Hng.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccbk1Hng.s:13     .text.eeconfig_init:00000000 eeconfig_init
+C:\msys64\tmp\ccbk1Hng.s:59     .text.eeconfig_enable:00000000 eeconfig_enable
+C:\msys64\tmp\ccbk1Hng.s:80     .text.eeconfig_disable:00000000 eeconfig_disable
+C:\msys64\tmp\ccbk1Hng.s:101    .text.eeconfig_is_enabled:00000000 eeconfig_is_enabled
+C:\msys64\tmp\ccbk1Hng.s:132    .text.eeconfig_read_debug:00000000 eeconfig_read_debug
+C:\msys64\tmp\ccbk1Hng.s:152    .text.eeconfig_update_debug:00000000 eeconfig_update_debug
+C:\msys64\tmp\ccbk1Hng.s:176    .text.eeconfig_read_default_layer:00000000 eeconfig_read_default_layer
+C:\msys64\tmp\ccbk1Hng.s:196    .text.eeconfig_update_default_layer:00000000 eeconfig_update_default_layer
+C:\msys64\tmp\ccbk1Hng.s:220    .text.eeconfig_read_keymap:00000000 eeconfig_read_keymap
+C:\msys64\tmp\ccbk1Hng.s:240    .text.eeconfig_update_keymap:00000000 eeconfig_update_keymap
 
 UNDEFINED SYMBOLS
 eeprom_update_word

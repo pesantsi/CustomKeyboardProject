@@ -1701,16 +1701,16 @@
  709               		.file 9 "./tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../AVR8/../Device.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 Endpoint_AVR8.c
-C:\msys64\tmp\cc9o14uh.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\cc9o14uh.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\cc9o14uh.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\cc9o14uh.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\cc9o14uh.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\cc9o14uh.s:13     .text.Endpoint_ConfigureEndpoint_Prv:00000000 Endpoint_ConfigureEndpoint_Prv
-C:\msys64\tmp\cc9o14uh.s:183    .text.Endpoint_ConfigureEndpointTable:00000000 Endpoint_ConfigureEndpointTable
-C:\msys64\tmp\cc9o14uh.s:378    .text.Endpoint_ClearEndpoints:00000000 Endpoint_ClearEndpoints
-C:\msys64\tmp\cc9o14uh.s:446    .text.Endpoint_ClearStatusStage:00000000 Endpoint_ClearStatusStage
-C:\msys64\tmp\cc9o14uh.s:540    .text.Endpoint_WaitUntilReady:00000000 Endpoint_WaitUntilReady
+C:\msys64\tmp\cce9EFQQ.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\cce9EFQQ.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\cce9EFQQ.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\cce9EFQQ.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\cce9EFQQ.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\cce9EFQQ.s:13     .text.Endpoint_ConfigureEndpoint_Prv:00000000 Endpoint_ConfigureEndpoint_Prv
+C:\msys64\tmp\cce9EFQQ.s:183    .text.Endpoint_ConfigureEndpointTable:00000000 Endpoint_ConfigureEndpointTable
+C:\msys64\tmp\cce9EFQQ.s:378    .text.Endpoint_ClearEndpoints:00000000 Endpoint_ClearEndpoints
+C:\msys64\tmp\cce9EFQQ.s:446    .text.Endpoint_ClearStatusStage:00000000 Endpoint_ClearStatusStage
+C:\msys64\tmp\cce9EFQQ.s:540    .text.Endpoint_WaitUntilReady:00000000 Endpoint_WaitUntilReady
 
 UNDEFINED SYMBOLS
 USB_ControlRequest

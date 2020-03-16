@@ -1153,14 +1153,14 @@
  681               		.file 19 "./tmk_core/common/keycode.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 bootmagic.c
-C:\msys64\tmp\ccY4QmHd.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccY4QmHd.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccY4QmHd.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccY4QmHd.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccY4QmHd.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccY4QmHd.s:12     .text.scan_keycode:00000000 scan_keycode
-C:\msys64\tmp\ccY4QmHd.s:148    .text.bootmagic_scan_keycode:00000000 bootmagic_scan_keycode
-C:\msys64\tmp\ccY4QmHd.s:197    .text.bootmagic:00000000 bootmagic
+C:\msys64\tmp\ccUaf7Ak.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccUaf7Ak.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccUaf7Ak.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccUaf7Ak.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccUaf7Ak.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccUaf7Ak.s:12     .text.scan_keycode:00000000 scan_keycode
+C:\msys64\tmp\ccUaf7Ak.s:148    .text.bootmagic_scan_keycode:00000000 bootmagic_scan_keycode
+C:\msys64\tmp\ccUaf7Ak.s:197    .text.bootmagic:00000000 bootmagic
                             *COM*:00000002 keymap_config
 
 UNDEFINED SYMBOLS

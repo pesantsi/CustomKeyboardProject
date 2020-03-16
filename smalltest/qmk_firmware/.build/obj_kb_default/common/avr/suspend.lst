@@ -988,20 +988,20 @@
  365               		.file 17 "./tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../Device.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 suspend.c
-C:\msys64\tmp\ccsv2zp5.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccsv2zp5.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccsv2zp5.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccsv2zp5.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccsv2zp5.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccsv2zp5.s:13     .text.suspend_idle:00000000 suspend_idle
-C:\msys64\tmp\ccsv2zp5.s:67     .text.suspend_power_down:00000000 suspend_power_down
-C:\msys64\tmp\ccsv2zp5.s:347    .bss.wdt_timeout:00000000 wdt_timeout
-C:\msys64\tmp\ccsv2zp5.s:181    .text.matrix_power_up:00000000 matrix_power_up
-C:\msys64\tmp\ccsv2zp5.s:181    .text.matrix_power_up:00000000 matrix_power_up.localalias.0
-C:\msys64\tmp\ccsv2zp5.s:200    .text.matrix_power_down:00000000 matrix_power_down
-C:\msys64\tmp\ccsv2zp5.s:215    .text.suspend_wakeup_condition:00000000 suspend_wakeup_condition
-C:\msys64\tmp\ccsv2zp5.s:270    .text.suspend_wakeup_init:00000000 suspend_wakeup_init
-C:\msys64\tmp\ccsv2zp5.s:292    .text.__vector_12:00000000 __vector_12
+C:\msys64\tmp\ccfEFDZF.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccfEFDZF.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccfEFDZF.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccfEFDZF.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccfEFDZF.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccfEFDZF.s:13     .text.suspend_idle:00000000 suspend_idle
+C:\msys64\tmp\ccfEFDZF.s:67     .text.suspend_power_down:00000000 suspend_power_down
+C:\msys64\tmp\ccfEFDZF.s:347    .bss.wdt_timeout:00000000 wdt_timeout
+C:\msys64\tmp\ccfEFDZF.s:181    .text.matrix_power_up:00000000 matrix_power_up
+C:\msys64\tmp\ccfEFDZF.s:181    .text.matrix_power_up:00000000 matrix_power_up.localalias.0
+C:\msys64\tmp\ccfEFDZF.s:200    .text.matrix_power_down:00000000 matrix_power_down
+C:\msys64\tmp\ccfEFDZF.s:215    .text.suspend_wakeup_condition:00000000 suspend_wakeup_condition
+C:\msys64\tmp\ccfEFDZF.s:270    .text.suspend_wakeup_init:00000000 suspend_wakeup_init
+C:\msys64\tmp\ccfEFDZF.s:292    .text.__vector_12:00000000 __vector_12
                             *ABS*:00000003 __gcc_isr.n_pushed.001
 
 UNDEFINED SYMBOLS

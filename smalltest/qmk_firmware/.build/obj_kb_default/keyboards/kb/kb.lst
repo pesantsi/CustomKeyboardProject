@@ -27,10 +27,10 @@
   27               		.file 17 "c:\\msys64\\home\\pc-office\\qmk_utils\\avr8-gnu-toolchain\\avr\\include\\stdlib.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 kb.c
-C:\msys64\tmp\ccRzNSEe.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccRzNSEe.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccRzNSEe.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccRzNSEe.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccRzNSEe.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccZLT5V9.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccZLT5V9.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccZLT5V9.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccZLT5V9.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccZLT5V9.s:6      *ABS*:00000001 __zero_reg__
 
 NO UNDEFINED SYMBOLS

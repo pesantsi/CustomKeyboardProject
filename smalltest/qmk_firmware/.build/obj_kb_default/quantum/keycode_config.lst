@@ -348,12 +348,12 @@
  241               		.file 4 "./tmk_core/common/keycode.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 keycode_config.c
-C:\msys64\tmp\ccWpLtob.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccWpLtob.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccWpLtob.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccWpLtob.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccWpLtob.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccWpLtob.s:13     .text.keycode_config:00000000 keycode_config
+C:\msys64\tmp\ccJsbf1W.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccJsbf1W.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccJsbf1W.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccJsbf1W.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccJsbf1W.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccJsbf1W.s:13     .text.keycode_config:00000000 keycode_config
 
 UNDEFINED SYMBOLS
 keymap_config

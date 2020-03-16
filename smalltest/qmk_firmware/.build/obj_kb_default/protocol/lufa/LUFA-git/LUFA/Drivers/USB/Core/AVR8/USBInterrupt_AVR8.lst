@@ -2988,15 +2988,15 @@
  975               		.file 12 "./tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/../AVR8/../Events.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 USBInterrupt_AVR8.c
-C:\msys64\tmp\ccHVUzXb.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccHVUzXb.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccHVUzXb.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccHVUzXb.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccHVUzXb.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccHVUzXb.s:13     .text.USB_INT_DisableAllInterrupts:00000000 USB_INT_DisableAllInterrupts
-C:\msys64\tmp\ccHVUzXb.s:41     .text.USB_INT_ClearAllInterrupts:00000000 USB_INT_ClearAllInterrupts
-C:\msys64\tmp\ccHVUzXb.s:64     .text.__vector_10:00000000 __vector_10
-C:\msys64\tmp\ccHVUzXb.s:737    .text.__vector_11:00000000 __vector_11
+C:\msys64\tmp\ccU7SMpI.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccU7SMpI.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccU7SMpI.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccU7SMpI.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccU7SMpI.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccU7SMpI.s:13     .text.USB_INT_DisableAllInterrupts:00000000 USB_INT_DisableAllInterrupts
+C:\msys64\tmp\ccU7SMpI.s:41     .text.USB_INT_ClearAllInterrupts:00000000 USB_INT_ClearAllInterrupts
+C:\msys64\tmp\ccU7SMpI.s:64     .text.__vector_10:00000000 __vector_10
+C:\msys64\tmp\ccU7SMpI.s:737    .text.__vector_11:00000000 __vector_11
 
 UNDEFINED SYMBOLS
 EVENT_USB_Device_StartOfFrame

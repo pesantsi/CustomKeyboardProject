@@ -77,13 +77,19 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 	return MACRO_NONE;
 }
 
-void matrix_init_user(void) {
+void matrix_init_user(void) 
+{
 }
 
-void matrix_scan_user(void) {
+void matrix_scan_user(void) 
+{
 }
 
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+bool process_record_user(uint16_t keycode, keyrecord_t* record) {
+	// If console is enabled, it will print the matrix position and status of each key pressed
+#ifdef CONSOLE_ENABLE
+	uprintf("KL: kc: %u, col: %u, row: %u, pressed: %u\n", keycode, record->event.key.col, record->event.key.row, record->event.pressed);
+#endif 
 	return true;
 }
 

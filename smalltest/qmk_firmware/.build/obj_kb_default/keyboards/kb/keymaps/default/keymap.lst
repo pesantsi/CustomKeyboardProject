@@ -115,15 +115,16 @@
   40               	matrix_init_user:
   41               	.LFB108:
   79:keyboards/kb/keymaps/default/keymap.c **** 
-  80:keyboards/kb/keymaps/default/keymap.c **** void matrix_init_user(void) {
-  42               		.loc 1 80 29 is_stmt 1 view -0
+  80:keyboards/kb/keymaps/default/keymap.c **** void matrix_init_user(void) 
+  81:keyboards/kb/keymaps/default/keymap.c **** {
+  42               		.loc 1 81 1 is_stmt 1 view -0
   43               		.cfi_startproc
   44               	/* prologue: function */
   45               	/* frame size = 0 */
   46               	/* stack size = 0 */
   47               	.L__stack_usage = 0
-  81:keyboards/kb/keymaps/default/keymap.c **** }
-  48               		.loc 1 81 1 view .LVU8
+  82:keyboards/kb/keymaps/default/keymap.c **** }
+  48               		.loc 1 82 1 view .LVU8
   49               	/* epilogue start */
   50 0000 0895      		ret
   51               		.cfi_endproc
@@ -146,25 +147,30 @@
   72               	process_record_user:
   73               	.LVL2:
   74               	.LFB110:
-  82:keyboards/kb/keymaps/default/keymap.c **** 
-  83:keyboards/kb/keymaps/default/keymap.c **** void matrix_scan_user(void) {
-  84:keyboards/kb/keymaps/default/keymap.c **** }
-  85:keyboards/kb/keymaps/default/keymap.c **** 
-  86:keyboards/kb/keymaps/default/keymap.c **** bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-  75               		.loc 1 86 65 view -0
+  83:keyboards/kb/keymaps/default/keymap.c **** 
+  84:keyboards/kb/keymaps/default/keymap.c **** void matrix_scan_user(void) 
+  85:keyboards/kb/keymaps/default/keymap.c **** {
+  86:keyboards/kb/keymaps/default/keymap.c **** }
+  87:keyboards/kb/keymaps/default/keymap.c **** 
+  88:keyboards/kb/keymaps/default/keymap.c **** bool process_record_user(uint16_t keycode, keyrecord_t* record) {
+  75               		.loc 1 88 65 view -0
   76               		.cfi_startproc
   77               	/* prologue: function */
   78               	/* frame size = 0 */
   79               	/* stack size = 0 */
   80               	.L__stack_usage = 0
-  87:keyboards/kb/keymaps/default/keymap.c **** 	return true;
-  81               		.loc 1 87 2 view .LVU10
-  88:keyboards/kb/keymaps/default/keymap.c **** }
-  82               		.loc 1 88 1 is_stmt 0 view .LVU11
+  89:keyboards/kb/keymaps/default/keymap.c **** 	// If console is enabled, it will print the matrix position and status of each key pressed
+  90:keyboards/kb/keymaps/default/keymap.c **** #ifdef CONSOLE_ENABLE
+  91:keyboards/kb/keymaps/default/keymap.c **** 	uprintf("KL: kc: %u, col: %u, row: %u, pressed: %u\n", keycode, record->event.key.col, record->eve
+  92:keyboards/kb/keymaps/default/keymap.c **** #endif 
+  93:keyboards/kb/keymaps/default/keymap.c **** 	return true;
+  81               		.loc 1 93 2 view .LVU10
+  94:keyboards/kb/keymaps/default/keymap.c **** }
+  82               		.loc 1 94 1 is_stmt 0 view .LVU11
   83 0000 81E0      		ldi r24,lo8(1)
   84               	.LVL3:
   85               	/* epilogue start */
-  86               		.loc 1 88 1 view .LVU12
+  86               		.loc 1 94 1 view .LVU12
   87 0002 0895      		ret
   88               		.cfi_endproc
   89               	.LFE110:
@@ -173,58 +179,58 @@
   94               	led_set_user:
   95               	.LVL4:
   96               	.LFB111:
-  89:keyboards/kb/keymaps/default/keymap.c **** 
-  90:keyboards/kb/keymaps/default/keymap.c **** void led_set_user(uint8_t usb_led) {
-  97               		.loc 1 90 36 is_stmt 1 view -0
+  95:keyboards/kb/keymaps/default/keymap.c **** 
+  96:keyboards/kb/keymaps/default/keymap.c **** void led_set_user(uint8_t usb_led) {
+  97               		.loc 1 96 36 is_stmt 1 view -0
   98               		.cfi_startproc
   99               	/* prologue: function */
  100               	/* frame size = 0 */
  101               	/* stack size = 0 */
  102               	.L__stack_usage = 0
-  91:keyboards/kb/keymaps/default/keymap.c **** 
-  92:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_NUM_LOCK)) {
- 103               		.loc 1 92 2 view .LVU14
-  93:keyboards/kb/keymaps/default/keymap.c **** 		
-  94:keyboards/kb/keymaps/default/keymap.c **** 	} else {
-  95:keyboards/kb/keymaps/default/keymap.c **** 		
-  96:keyboards/kb/keymaps/default/keymap.c **** 	}
- 104               		.loc 1 96 2 view .LVU15
   97:keyboards/kb/keymaps/default/keymap.c **** 
-  98:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_CAPS_LOCK)) {
- 105               		.loc 1 98 2 view .LVU16
+  98:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_NUM_LOCK)) {
+ 103               		.loc 1 98 2 view .LVU14
   99:keyboards/kb/keymaps/default/keymap.c **** 		
  100:keyboards/kb/keymaps/default/keymap.c **** 	} else {
  101:keyboards/kb/keymaps/default/keymap.c **** 		
  102:keyboards/kb/keymaps/default/keymap.c **** 	}
- 106               		.loc 1 102 2 view .LVU17
+ 104               		.loc 1 102 2 view .LVU15
  103:keyboards/kb/keymaps/default/keymap.c **** 
- 104:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_SCROLL_LOCK)) {
- 107               		.loc 1 104 2 view .LVU18
+ 104:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_CAPS_LOCK)) {
+ 105               		.loc 1 104 2 view .LVU16
  105:keyboards/kb/keymaps/default/keymap.c **** 		
  106:keyboards/kb/keymaps/default/keymap.c **** 	} else {
  107:keyboards/kb/keymaps/default/keymap.c **** 		
  108:keyboards/kb/keymaps/default/keymap.c **** 	}
- 108               		.loc 1 108 2 view .LVU19
+ 106               		.loc 1 108 2 view .LVU17
  109:keyboards/kb/keymaps/default/keymap.c **** 
- 110:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_COMPOSE)) {
- 109               		.loc 1 110 2 view .LVU20
+ 110:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_SCROLL_LOCK)) {
+ 107               		.loc 1 110 2 view .LVU18
  111:keyboards/kb/keymaps/default/keymap.c **** 		
  112:keyboards/kb/keymaps/default/keymap.c **** 	} else {
  113:keyboards/kb/keymaps/default/keymap.c **** 		
  114:keyboards/kb/keymaps/default/keymap.c **** 	}
- 110               		.loc 1 114 2 view .LVU21
+ 108               		.loc 1 114 2 view .LVU19
  115:keyboards/kb/keymaps/default/keymap.c **** 
- 116:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_KANA)) {
- 111               		.loc 1 116 2 view .LVU22
+ 116:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_COMPOSE)) {
+ 109               		.loc 1 116 2 view .LVU20
  117:keyboards/kb/keymaps/default/keymap.c **** 		
  118:keyboards/kb/keymaps/default/keymap.c **** 	} else {
  119:keyboards/kb/keymaps/default/keymap.c **** 		
  120:keyboards/kb/keymaps/default/keymap.c **** 	}
- 112               		.loc 1 120 2 view .LVU23
- 113               	/* epilogue start */
+ 110               		.loc 1 120 2 view .LVU21
  121:keyboards/kb/keymaps/default/keymap.c **** 
- 122:keyboards/kb/keymaps/default/keymap.c **** }...
- 114               		.loc 1 122 1 is_stmt 0 view .LVU24
+ 122:keyboards/kb/keymaps/default/keymap.c **** 	if (usb_led & (1 << USB_LED_KANA)) {
+ 111               		.loc 1 122 2 view .LVU22
+ 123:keyboards/kb/keymaps/default/keymap.c **** 		
+ 124:keyboards/kb/keymaps/default/keymap.c **** 	} else {
+ 125:keyboards/kb/keymaps/default/keymap.c **** 		
+ 126:keyboards/kb/keymaps/default/keymap.c **** 	}
+ 112               		.loc 1 126 2 view .LVU23
+ 113               	/* epilogue start */
+ 127:keyboards/kb/keymaps/default/keymap.c **** 
+ 128:keyboards/kb/keymaps/default/keymap.c **** }...
+ 114               		.loc 1 128 1 is_stmt 0 view .LVU24
  115 0000 0895      		ret
  116               		.cfi_endproc
  117               	.LFE111:
@@ -319,16 +325,16 @@
  209               		.file 21 "c:\\msys64\\home\\pc-office\\qmk_utils\\avr8-gnu-toolchain\\avr\\include\\stdlib.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 keymap.c
-C:\msys64\tmp\cchPgKIF.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\cchPgKIF.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\cchPgKIF.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\cchPgKIF.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\cchPgKIF.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\cchPgKIF.s:13     .text.action_get_macro:00000000 action_get_macro
-C:\msys64\tmp\cchPgKIF.s:40     .text.matrix_init_user:00000000 matrix_init_user
-C:\msys64\tmp\cchPgKIF.s:57     .text.matrix_scan_user:00000000 matrix_scan_user
-C:\msys64\tmp\cchPgKIF.s:72     .text.process_record_user:00000000 process_record_user
-C:\msys64\tmp\cchPgKIF.s:94     .text.led_set_user:00000000 led_set_user
-C:\msys64\tmp\cchPgKIF.s:123    .progmem.data.keymaps:00000000 keymaps
+C:\msys64\tmp\ccG3Mf9u.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccG3Mf9u.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccG3Mf9u.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccG3Mf9u.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccG3Mf9u.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccG3Mf9u.s:13     .text.action_get_macro:00000000 action_get_macro
+C:\msys64\tmp\ccG3Mf9u.s:40     .text.matrix_init_user:00000000 matrix_init_user
+C:\msys64\tmp\ccG3Mf9u.s:57     .text.matrix_scan_user:00000000 matrix_scan_user
+C:\msys64\tmp\ccG3Mf9u.s:72     .text.process_record_user:00000000 process_record_user
+C:\msys64\tmp\ccG3Mf9u.s:94     .text.led_set_user:00000000 led_set_user
+C:\msys64\tmp\ccG3Mf9u.s:123    .progmem.data.keymaps:00000000 keymaps
 
 NO UNDEFINED SYMBOLS

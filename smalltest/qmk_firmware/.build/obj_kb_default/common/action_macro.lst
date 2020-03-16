@@ -739,12 +739,12 @@
  384               		.file 14 "./tmk_core/common/debug.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 action_macro.c
-C:\msys64\tmp\ccAYzoSg.s:2      *ABS*:0000003e __SP_H__
-C:\msys64\tmp\ccAYzoSg.s:3      *ABS*:0000003d __SP_L__
-C:\msys64\tmp\ccAYzoSg.s:4      *ABS*:0000003f __SREG__
-C:\msys64\tmp\ccAYzoSg.s:5      *ABS*:00000000 __tmp_reg__
-C:\msys64\tmp\ccAYzoSg.s:6      *ABS*:00000001 __zero_reg__
-C:\msys64\tmp\ccAYzoSg.s:13     .text.action_macro_play:00000000 action_macro_play
+C:\msys64\tmp\ccYqIqh1.s:2      *ABS*:0000003e __SP_H__
+C:\msys64\tmp\ccYqIqh1.s:3      *ABS*:0000003d __SP_L__
+C:\msys64\tmp\ccYqIqh1.s:4      *ABS*:0000003f __SREG__
+C:\msys64\tmp\ccYqIqh1.s:5      *ABS*:00000000 __tmp_reg__
+C:\msys64\tmp\ccYqIqh1.s:6      *ABS*:00000001 __zero_reg__
+C:\msys64\tmp\ccYqIqh1.s:13     .text.action_macro_play:00000000 action_macro_play
 
 UNDEFINED SYMBOLS
 unregister_code
